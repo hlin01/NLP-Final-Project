@@ -71,7 +71,7 @@ Once you've activated your virtual environment, you can use `pip` to install pac
 packages will stay in the virtual environment instead of your global Python installation. Only the virtual environment's Python
 executable will be able to see these packages.
 
-
+---
 
 ## Phase 1: Project Setup and Initial Analysis (Week 1)
 **Dataset Selection**
