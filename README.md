@@ -70,3 +70,61 @@ This command looks slightly different if you're not using `bash` on Linux. The [
 Once you've activated your virtual environment, you can use `pip` to install packages the way you normally would, but the installed
 packages will stay in the virtual environment instead of your global Python installation. Only the virtual environment's Python
 executable will be able to see these packages.
+
+-------------------------------------------------------------------
+
+## Phase 1: Project Setup and Initial Analysis (Week 1)
+**Dataset Selection**
+- Choose between SNLI, MultiNLI, SQuAD, or HotpotQA
+- Set up the provided GitHub repository and get the starter code running
+- Run initial training using ELECTRA-small model to establish baseline performance[1]
+
+**Initial Analysis**
+- Identify potential dataset artifacts and biases
+- Select 2-3 analysis approaches to investigate:
+  - Contrast sets examination
+  - Challenge set evaluation 
+  - Model ablation studies
+  - Statistical correlation analysis[1]
+
+## Phase 2: Deep Analysis (Week 2)
+**Error Analysis**
+- Collect specific examples of model errors
+- Identify patterns in challenging examples
+- Create visualizations of error patterns
+- Document findings thoroughly[1]
+
+**Method Selection**
+- Based on analysis, choose an approach to address identified issues:
+  - Dataset cartography
+  - Ensemble-based debiasing
+  - Adversarial training
+  - Contrastive learning[1]
+
+## Phase 3: Implementation and Testing (Week 3)
+**Development**
+- Implement chosen method
+- Debug on small data subsets first
+- Run initial experiments to validate approach
+- Collect preliminary results[1]
+
+**Evaluation**
+- Compare performance against baseline
+- Analyze specific improvements/changes
+- Create evaluation metrics for targeted issues
+- Document all experimental settings[1]
+
+## Phase 4: Paper Writing (Week 4)
+**Paper Structure**
+- Write abstract and introduction
+- Detail methodology and implementation
+- Present results with visualizations
+- Provide in-depth analysis
+- Compare to related work
+- Format according to ACL style guidelines
+
+**Final Deliverables**
+- 3-8 page paper (excluding references)
+- Code submission
+- Clear documentation of results
+- Analysis of successes/failures
