@@ -10,26 +10,26 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Load and filter SNLI dataset
 dataset = load_dataset("stanfordnlp/snli", split="test")
-entailment_examples = dataset.filter(lambda x: x["label"] == 0).select(range(100))
-contradiction_examples = dataset.filter(lambda x: x["label"] == 2).select(range(100))
+entailment_examples = dataset.filter(lambda x: x["label"] == 0).select(range(250))
+contradiction_examples = dataset.filter(lambda x: x["label"] == 2).select(range(250))
 
 # Prompt templates
 ENTAILMENT_TO_CONTRADICTION_PROMPT = """
-Given a premise and hypothesis pair where the hypothesis currently entails the premise, modify the hypothesis to contradict the premise while keeping the same basic topic and making minimal changes. Aim for plausible contradictions.
+You are tasked with modifying a hypothesis to transform its relationship with a given premise from entailment to contradiction. Make minimal edits to the hypothesis while preserving its topic, coherence, and plausibility. The contradiction must directly oppose the premise but remain as close as possible to the original hypothesis.
 
 Premise: {premise}
 Original hypothesis (entails): {hypothesis}
 
-Output only the new contradicting hypothesis with no other text.
+Provide only the revised hypothesis that contradicts the premise with no other text.
 """
 
 CONTRADICTION_TO_ENTAILMENT_PROMPT = """
-Given a premise and hypothesis pair where the hypothesis currently contradicts the premise, modify the hypothesis to entail the premise while keeping the same basic topic and making minimal changes. Ensure the modified hypothesis logically follows from the premise.
+You are tasked with modifying a hypothesis to transform its relationship with a given premise from contradiction to entailment. Make minimal edits to the hypothesis while maintaining its topic, coherence, and plausibility. The new hypothesis must logically follow from the premise but remain as close as possible to the original hypothesis.
 
 Premise: {premise}
 Original hypothesis (contradicts): {hypothesis}
 
-Output only the new entailing hypothesis with no other text.
+Provide only the revised hypothesis that entails the premise with no other text.
 """
 
 # Generate contrast set
@@ -83,6 +83,3 @@ with open("entailment_to_contradiction.json", "w") as f:
 
 with open("contradiction_to_entailment.json", "w") as f:
     json.dump(contradiction_to_entailment_set, f, indent=4)
-
-# Modify prompt
-# Set temperature and top_p
