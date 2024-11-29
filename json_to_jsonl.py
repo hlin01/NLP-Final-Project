@@ -28,6 +28,6 @@ def convert_json_to_jsonl(input_file, output_file):
             outfile.write(json.dumps(entry) + "\n")
 
 # Example usage
-input_file = 'entailment_to_contradiction.json'  # Replace with your input file name
-output_file = 'entailment_to_contradiction.jsonl'  # Replace with your desired output file name
+input_file = 'contradiction_to_neutral.json'  # Replace with your input file name
+output_file = 'contradiction_to_neutral.jsonl'  # Replace with your desired output file name
 convert_json_to_jsonl(input_file, output_file)

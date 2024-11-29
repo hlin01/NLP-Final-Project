@@ -2,71 +2,71 @@
     {
         "premise": "This church choir sings to the masses as they sing joyous songs from the book at a church.",
         "original_hypothesis": "A choir singing at a baseball game.",
-        "perturbed_hypothesis": "A church choir sings joyous songs from a book.",
+        "perturbed_hypothesis": "The choir's repertoire includes both sacred and secular music.",
         "original_label": "contradiction",
-        "new_label": "entailment"
+        "new_label": "neutral"
     },
     {
         "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
         "original_hypothesis": "The woman has been shot.",
-        "perturbed_hypothesis": "The woman is wearing a green headscarf, a blue shirt, and has a very big grin.",
+        "perturbed_hypothesis": "The woman is attending a festival.",
         "original_label": "contradiction",
-        "new_label": "entailment"
+        "new_label": "neutral"
     },
     {
         "premise": "An old man with a package poses in front of an advertisement.",
         "original_hypothesis": "A man walks by an ad.",
-        "perturbed_hypothesis": "An old man, carrying a package, poses for a photograph in front of an advertisement.",
+        "perturbed_hypothesis": "The package contains a valuable item.",
         "original_label": "contradiction",
-        "new_label": "entailment"
+        "new_label": "neutral"
     },
     {
         "premise": "A statue at a museum that no seems to be looking at.",
         "original_hypothesis": "Tons of people are gathered around the statue.",
-        "perturbed_hypothesis": "No one is looking at the statue.",
+        "perturbed_hypothesis": "The statue's placement or design discourages interaction.",
         "original_label": "contradiction",
-        "new_label": "entailment"
+        "new_label": "neutral"
     },
     {
         "premise": "A land rover is being driven across a river.",
         "original_hypothesis": "A sedan is stuck in the middle of a river.",
-        "perturbed_hypothesis": "A land rover is submerged in a river.",
+        "perturbed_hypothesis": "The river's current is stronger than anticipated.",
         "original_label": "contradiction",
-        "new_label": "entailment"
+        "new_label": "neutral"
     },
     {
         "premise": "A man playing an electric guitar on stage.",
         "original_hypothesis": "A man playing banjo on the floor.",
-        "perturbed_hypothesis": "A man playing an electric guitar.",
+        "perturbed_hypothesis": "The musician is enjoying the performance.",
         "original_label": "contradiction",
-        "new_label": "entailment"
+        "new_label": "neutral"
     },
     {
         "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
         "original_hypothesis": "A man is eating pb and j",
-        "perturbed_hypothesis": "The doctor and her assistant are reviewing new medical manuals.",
+        "perturbed_hypothesis": "The doctor and her assistant will find a solution to a challenging patient case within the next week.",
         "original_label": "contradiction",
-        "new_label": "entailment"
+        "new_label": "neutral"
     },
     {
         "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
         "original_hypothesis": "A boy runs into a wall",
-        "perturbed_hypothesis": "Two girls wearing wool hats are at a location; one is running and leaning over an object, while the other is sitting.",
+        "perturbed_hypothesis": "The individuals are participating in a game or activity.",
         "original_label": "contradiction",
-        "new_label": "entailment"
+        "new_label": "neutral"
     },
     {
         "premise": "A young family enjoys feeling ocean waves lap at their feet.",
         "original_hypothesis": "A family is out at a restaurant.",
-        "perturbed_hypothesis": "A young family is at the ocean.",
+        "perturbed_hypothesis": "The family enjoys coastal vacations.",
         "original_label": "contradiction",
-        "new_label": "entailment"
+        "new_label": "neutral"
     },
     {
         "premise": "A couple walk hand in hand down a street.",
         "original_hypothesis": "A couple is sitting on a bench.",
-        "perturbed_hypothesis": "A couple is walking.",
+        "perturbed_hypothesis": "The couple is in love.",
         "original_label": "contradiction",
-        "new_label": "entailment"
+        "new_label": "neutral"
     }
 ]

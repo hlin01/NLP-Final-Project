@@ -1,0 +1,72 @@
+[
+    {
+        "premise": "This church choir sings to the masses as they sing joyous songs from the book at a church.",
+        "original_hypothesis": "The church has cracks in the ceiling.",
+        "perturbed_hypothesis": "The church choir's singing is discordant and deeply unsettling, causing distress to the congregation.",
+        "original_label": "neutral",
+        "new_label": "contradiction"
+    },
+    {
+        "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
+        "original_hypothesis": "The woman is young.",
+        "perturbed_hypothesis": "The woman is over 70 years old.",
+        "original_label": "neutral",
+        "new_label": "contradiction"
+    },
+    {
+        "premise": "An old man with a package poses in front of an advertisement.",
+        "original_hypothesis": "A man poses in front of an ad for beer.",
+        "perturbed_hypothesis": "The man is not old, or he does not have a package.",
+        "original_label": "neutral",
+        "new_label": "contradiction"
+    },
+    {
+        "premise": "A statue at a museum that no seems to be looking at.",
+        "original_hypothesis": "The statue is offensive and people are mad that it is on display.",
+        "perturbed_hypothesis": "The statue is captivating and draws the attention of every visitor.",
+        "original_label": "neutral",
+        "new_label": "contradiction"
+    },
+    {
+        "premise": "A man playing an electric guitar on stage.",
+        "original_hypothesis": "A man is performing for cash.",
+        "perturbed_hypothesis": "The man is not playing an electric guitar.",
+        "original_label": "neutral",
+        "new_label": "contradiction"
+    },
+    {
+        "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+        "original_hypothesis": "A doctor is studying",
+        "perturbed_hypothesis": "The individuals depicted are not engaged in medical study.",
+        "original_label": "neutral",
+        "new_label": "contradiction"
+    },
+    {
+        "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+        "original_hypothesis": "A man watches his daughter leap",
+        "perturbed_hypothesis": "Neither person wearing a wool hat is related.",
+        "original_label": "neutral",
+        "new_label": "contradiction"
+    },
+    {
+        "premise": "A young family enjoys feeling ocean waves lap at their feet.",
+        "original_hypothesis": "A young man and woman take their child to the beach for the first time.",
+        "perturbed_hypothesis": "The young family actively avoids beaches and bodies of water.",
+        "original_label": "neutral",
+        "new_label": "contradiction"
+    },
+    {
+        "premise": "A couple walk hand in hand down a street.",
+        "original_hypothesis": "The couple is married.",
+        "perturbed_hypothesis": "The couple is not romantically involved.",
+        "original_label": "neutral",
+        "new_label": "contradiction"
+    },
+    {
+        "premise": "A man reads the paper in a bar with green lighting.",
+        "original_hypothesis": "The man is reading the sportspage.",
+        "perturbed_hypothesis": "The man is not in a bar with green lighting.",
+        "original_label": "neutral",
+        "new_label": "contradiction"
+    }
+]

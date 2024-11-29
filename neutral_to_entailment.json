@@ -1,0 +1,72 @@
+[
+    {
+        "premise": "This church choir sings to the masses as they sing joyous songs from the book at a church.",
+        "original_hypothesis": "The church has cracks in the ceiling.",
+        "perturbed_hypothesis": "The church choir's joyous singing from the book is intended to uplift the congregation.",
+        "original_label": "neutral",
+        "new_label": "entailment"
+    },
+    {
+        "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
+        "original_hypothesis": "The woman is young.",
+        "perturbed_hypothesis": "The woman is displaying happiness.",
+        "original_label": "neutral",
+        "new_label": "entailment"
+    },
+    {
+        "premise": "An old man with a package poses in front of an advertisement.",
+        "original_hypothesis": "A man poses in front of an ad for beer.",
+        "perturbed_hypothesis": "An old man posing with a package is in front of an advertisement.",
+        "original_label": "neutral",
+        "new_label": "entailment"
+    },
+    {
+        "premise": "A statue at a museum that no seems to be looking at.",
+        "original_hypothesis": "The statue is offensive and people are mad that it is on display.",
+        "perturbed_hypothesis": "The statue is uninteresting or blends in with its surroundings.",
+        "original_label": "neutral",
+        "new_label": "entailment"
+    },
+    {
+        "premise": "A man playing an electric guitar on stage.",
+        "original_hypothesis": "A man is performing for cash.",
+        "perturbed_hypothesis": "A man is playing an electric guitar as part of a stage performance.",
+        "original_label": "neutral",
+        "new_label": "entailment"
+    },
+    {
+        "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+        "original_hypothesis": "A doctor is studying",
+        "perturbed_hypothesis": "A blond-haired doctor and her African American assistant are reviewing new medical manuals.",
+        "original_label": "neutral",
+        "new_label": "entailment"
+    },
+    {
+        "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+        "original_hypothesis": "A man watches his daughter leap",
+        "perturbed_hypothesis": "Two girls wearing wool hats are engaged in different activities near an object.",
+        "original_label": "neutral",
+        "new_label": "entailment"
+    },
+    {
+        "premise": "A young family enjoys feeling ocean waves lap at their feet.",
+        "original_hypothesis": "A young man and woman take their child to the beach for the first time.",
+        "perturbed_hypothesis": "A young family visits a beach with gentle waves.",
+        "original_label": "neutral",
+        "new_label": "entailment"
+    },
+    {
+        "premise": "A couple walk hand in hand down a street.",
+        "original_hypothesis": "The couple is married.",
+        "perturbed_hypothesis": "The couple is physically close to each other.",
+        "original_label": "neutral",
+        "new_label": "entailment"
+    },
+    {
+        "premise": "A man reads the paper in a bar with green lighting.",
+        "original_hypothesis": "The man is reading the sportspage.",
+        "perturbed_hypothesis": "The man is reading a newspaper in a bar illuminated by green lights.",
+        "original_label": "neutral",
+        "new_label": "entailment"
+    }
+]

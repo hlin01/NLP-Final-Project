@@ -5,34 +5,73 @@ import time
 import json
 
 # Configure Gemini API
-genai.configure(api_key="API_KEY")
-model = genai.GenerativeModel('gemini-1.5-flash')
+genai.configure(api_key="AIzaSyAV7fx7jtiyOEHT3INAUSurZDmziKrqDb8")  # Replace with your API key
+model = genai.GenerativeModel("gemini-1.5-flash")  # Replace with desired model
 
 # Load and filter SNLI dataset
 dataset = load_dataset("stanfordnlp/snli", split="test")
-entailment_examples = dataset.filter(lambda x: x["label"] == 0).select(range(250))
-contradiction_examples = dataset.filter(lambda x: x["label"] == 2).select(range(250))
+
+# Filter dataset by label
+entailment_examples = dataset.filter(lambda x: x["label"] == 0).select(range(10))
+neutral_examples = dataset.filter(lambda x: x["label"] == 1).select(range(10))
+contradiction_examples = dataset.filter(lambda x: x["label"] == 2).select(range(10))
 
 # Prompt templates
 ENTAILMENT_TO_CONTRADICTION_PROMPT = """
-You are tasked with modifying a hypothesis to transform its relationship with a given premise from entailment to contradiction. Make minimal edits to the hypothesis while preserving its topic, coherence, and plausibility. The contradiction must directly oppose the premise but remain as close as possible to the original hypothesis.
+Modify the hypothesis so that it directly contradicts the premise. Make the minimal necessary changes to create an explicit contradiction, ensuring the topic and language deviate as little as possible from the original. The contradiction must be obvious and leave no room for ambiguity.
 
 Premise: {premise}
 Original hypothesis (entails): {hypothesis}
 
-Provide only the revised hypothesis that contradicts the premise with no other text.
+Provide only the revised hypothesis that contradicts the premise.
+"""
+
+ENTAILMENT_TO_NEUTRAL_PROMPT = """
+Modify the hypothesis so that it neither logically follows from nor contradicts the premise. The revised hypothesis can deviate from the original as long as it is relevant, plausible, and achieves neutrality.
+
+Premise: {premise}
+Original hypothesis (entails): {hypothesis}
+
+Provide only the revised hypothesis that is neutral with respect to the premise.
+"""
+
+NEUTRAL_TO_ENTAILMENT_PROMPT = """
+Modify the hypothesis so that it logically follows from the premise. The revised hypothesis can deviate from the original as long as it is relevant, plausible, and achieves a clear, consistent, and unambiguous entailment.
+
+Premise: {premise}
+Original hypothesis (neutral): {hypothesis}
+
+Provide only the revised hypothesis that entails the premise.
+"""
+
+NEUTRAL_TO_CONTRADICTION_PROMPT = """
+Modify the hypothesis so that it directly contradicts the premise. The revised hypothesis can deviate from the original as long as it is relevant, plausible, and the contradiction is explicit and leaves no ambiguity.
+
+Premise: {premise}
+Original hypothesis (neutral): {hypothesis}
+
+Provide only the revised hypothesis that contradicts the premise.
 """
 
 CONTRADICTION_TO_ENTAILMENT_PROMPT = """
-You are tasked with modifying a hypothesis to transform its relationship with a given premise from contradiction to entailment. Make minimal edits to the hypothesis while maintaining its topic, coherence, and plausibility. The new hypothesis must logically follow from the premise but remain as close as possible to the original hypothesis.
+Modify the hypothesis so that it logically follows from the premise. Make the minimal necessary changes to create a clear entailment, ensuring the revised hypothesis deviates as little as possible from the original while aligning fully with the premise.
 
 Premise: {premise}
 Original hypothesis (contradicts): {hypothesis}
 
-Provide only the revised hypothesis that entails the premise with no other text.
+Provide only the revised hypothesis that entails the premise.
 """
 
-# Generate contrast set
+CONTRADICTION_TO_NEUTRAL_PROMPT = """
+Modify the hypothesis so that it neither contradicts nor logically follows from the premise. The revised hypothesis can deviate from the original as long as it is relevant, plausible, and achieves neutrality.
+
+Premise: {premise}
+Original hypothesis (contradicts): {hypothesis}
+
+Provide only the revised hypothesis that is neutral with respect to the premise.
+"""
+
+# Function to generate contrast sets
 def generate_contrast_set(examples, prompt_template, original_label, new_label):
     contrast_set = []
     for example in tqdm(examples):
@@ -62,11 +101,32 @@ def generate_contrast_set(examples, prompt_template, original_label, new_label):
             continue
     return contrast_set
 
-# Generate the contrast sets
+# Generate all contrast sets
 entailment_to_contradiction_set = generate_contrast_set(
     entailment_examples,
     ENTAILMENT_TO_CONTRADICTION_PROMPT,
     "entailment",
+    "contradiction"
+)
+
+entailment_to_neutral_set = generate_contrast_set(
+    entailment_examples,
+    ENTAILMENT_TO_NEUTRAL_PROMPT,
+    "entailment",
+    "neutral"
+)
+
+neutral_to_entailment_set = generate_contrast_set(
+    neutral_examples,
+    NEUTRAL_TO_ENTAILMENT_PROMPT,
+    "neutral",
+    "entailment"
+)
+
+neutral_to_contradiction_set = generate_contrast_set(
+    neutral_examples,
+    NEUTRAL_TO_CONTRADICTION_PROMPT,
+    "neutral",
     "contradiction"
 )
 
@@ -77,9 +137,28 @@ contradiction_to_entailment_set = generate_contrast_set(
     "entailment"
 )
 
-# Save to JSON
+contradiction_to_neutral_set = generate_contrast_set(
+    contradiction_examples,
+    CONTRADICTION_TO_NEUTRAL_PROMPT,
+    "contradiction",
+    "neutral"
+)
+
+# Save all sets to JSON files
 with open("entailment_to_contradiction.json", "w") as f:
     json.dump(entailment_to_contradiction_set, f, indent=4)
 
+with open("entailment_to_neutral.json", "w") as f:
+    json.dump(entailment_to_neutral_set, f, indent=4)
+
+with open("neutral_to_entailment.json", "w") as f:
+    json.dump(neutral_to_entailment_set, f, indent=4)
+
+with open("neutral_to_contradiction.json", "w") as f:
+    json.dump(neutral_to_contradiction_set, f, indent=4)
+
 with open("contradiction_to_entailment.json", "w") as f:
     json.dump(contradiction_to_entailment_set, f, indent=4)
+
+with open("contradiction_to_neutral.json", "w") as f:
+    json.dump(contradiction_to_neutral_set, f, indent=4)
