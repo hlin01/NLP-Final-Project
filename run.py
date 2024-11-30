@@ -105,6 +105,7 @@ def main():
         # remove SNLI examples with no label
         dataset = dataset.filter(lambda ex: ex['label'] != -1)
     
+    eval_split = 'train' # Set to 'test' to evaluate on original test split, 'train' otherwise
     train_dataset = None
     eval_dataset = None
     train_dataset_featurized = None
@@ -126,9 +127,7 @@ def main():
             additional_dataset = additional_dataset.cast(snli_features)
 
             # Combine the datasets
-            print(f"Original training dataset size: {len(train_dataset)} examples")
             train_dataset = datasets.concatenate_datasets([train_dataset, additional_dataset])
-            print(f"Combined training dataset size: {len(train_dataset)} examples")
         if args.max_train_samples:
             train_dataset = train_dataset.select(range(args.max_train_samples))
         train_dataset_featurized = train_dataset.map(
