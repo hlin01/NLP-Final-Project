@@ -114,6 +114,19 @@ def main():
         if args.additional_data:
             print(f"Loading additional training data from {args.additional_data}")
             additional_dataset = datasets.load_dataset('json', data_files=args.additional_data)['train']
+
+            # Convert labels in the additional dataset to ClassLabel-compatible strings
+            def map_labels_to_classlabel(example):
+                label_mapping = {0: "entailment", 1: "neutral", 2: "contradiction"}
+                example['label'] = label_mapping[example['label']]
+                return example
+            additional_dataset = additional_dataset.map(map_labels_to_classlabel)
+
+            # Align the additional dataset's features with the SNLI dataset
+            snli_features = train_dataset.features
+            additional_dataset = additional_dataset.cast(snli_features)
+
+            # Combine the datasets
             train_dataset = datasets.concatenate_datasets([train_dataset, additional_dataset])
             print(f"Combined training dataset size: {len(train_dataset)} examples")
         if args.max_train_samples:
