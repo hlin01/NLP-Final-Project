@@ -39,6 +39,8 @@ def main():
         By default, "nli" will use the SNLI dataset, and "qa" will use the SQuAD dataset.""")
     argp.add_argument('--dataset', type=str, default=None,
                       help="""This argument overrides the default dataset used for the specified task.""")
+    argp.add_argument('--additional_data', type=str, default=None,
+                  help="Path to the additional training data (in JSONL format).")
     argp.add_argument('--max_length', type=int, default=128,
                       help="""This argument limits the maximum sequence length used during training/evaluation.
         Shorter sequence lengths need less memory and computation time, but some examples may end up getting truncated.""")
@@ -56,13 +58,11 @@ def main():
     # {"premise": "Two women are embracing.", "hypothesis": "The sisters are hugging.", "label": 1}
     if args.dataset.endswith('.json') or args.dataset.endswith('.jsonl'):
         dataset_id = None
-
-        contrast_set = datasets.load_dataset('json', data_files=args.dataset)
-        snli_dataset = datasets.load_dataset('snli')
-        combined_set = datasets.concatenate_datasets([snli_dataset['train'], contrast_set['train']])
-        combined_set.to_json('./combined_set.jsonl')
-        dataset = datasets.load_dataset('json', data_files='./combined_set.jsonl')
-
+        # Load from local json/jsonl file
+        dataset = datasets.load_dataset('json', data_files=args.dataset)
+        # By default, the "json" dataset loader places all examples in the train split,
+        # so if we want to use a jsonl file for evaluation we need to get the "train" split
+        # from the loaded dataset
         eval_split = 'train'
     else:
         default_datasets = {'qa': ('squad',), 'nli': ('snli',)}
@@ -111,6 +111,11 @@ def main():
     eval_dataset_featurized = None
     if training_args.do_train:
         train_dataset = dataset['train']
+        if args.additional_data:
+            print(f"Loading additional training data from {args.additional_data}")
+            additional_dataset = datasets.load_dataset('json', data_files=args.additional_data)['train']
+            train_dataset = datasets.concatenate_datasets([train_dataset, additional_dataset])
+            print(f"Combined training dataset size: {len(train_dataset)} examples")
         if args.max_train_samples:
             train_dataset = train_dataset.select(range(args.max_train_samples))
         train_dataset_featurized = train_dataset.map(
@@ -208,7 +213,6 @@ def main():
                     example_with_prediction['predicted_label'] = int(eval_predictions.predictions[i].argmax())
                     f.write(json.dumps(example_with_prediction))
                     f.write('\n')
-
 
 if __name__ == "__main__":
     main()
