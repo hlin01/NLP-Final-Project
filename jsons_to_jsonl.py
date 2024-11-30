@@ -10,8 +10,8 @@ def combine_and_convert_to_jsonl(input_files, output_file):
     """
     # Mapping for labels
     label_mapping = {
-        "neutral": 1,
         "entailment": 0,
+        "neutral": 1,
         "contradiction": 2
     }
 
@@ -39,12 +39,12 @@ def combine_and_convert_to_jsonl(input_files, output_file):
             outfile.write(json.dumps(entry) + "\n")
 
 input_files = [
-    'entailment_to_contradiction.json',
     'entailment_to_neutral.json',
+    'entailment_to_contradiction.json',
     'neutral_to_entailment.json',
     'neutral_to_contradiction.json',
     'contradiction_to_entailment.json',
     'contradiction_to_neutral.json'
 ]
-output_file = 'contrast_set.jsonl'
+output_file = 'contrast_set_2.jsonl'
 combine_and_convert_to_jsonl(input_files, output_file)

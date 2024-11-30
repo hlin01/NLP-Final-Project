@@ -5,27 +5,18 @@ import time
 import json
 
 # Configure Gemini API
-genai.configure(api_key="API_KEY")  # Replace with your API key
+genai.configure(api_key="AIzaSyA_ZoFrVY9yVdmG1LBDNE0OcqHIUHQDQMM")  # Replace with env variable or API key
 model = genai.GenerativeModel("gemini-1.5-pro")  # Replace with desired model
 
 # Load and filter SNLI dataset
 dataset = load_dataset("stanfordnlp/snli", split="test")
 
 # Filter dataset by label
-entailment_examples = dataset.filter(lambda x: x["label"] == 0).shuffle(seed=42).select(range(500))
-neutral_examples = dataset.filter(lambda x: x["label"] == 1).shuffle(seed=42).select(range(500))
-contradiction_examples = dataset.filter(lambda x: x["label"] == 2).shuffle(seed=42).select(range(500))
+entailment_examples = dataset.filter(lambda x: x["label"] == 0).shuffle(seed=123).select(range(500))
+neutral_examples = dataset.filter(lambda x: x["label"] == 1).shuffle(seed=123).select(range(500))
+contradiction_examples = dataset.filter(lambda x: x["label"] == 2).shuffle(seed=123).select(range(500))
 
 # Prompt templates
-ENTAILMENT_TO_CONTRADICTION_PROMPT = """
-Modify the hypothesis so that it directly contradicts the premise. Make the minimal necessary changes to create an explicit contradiction, ensuring the topic and language deviate as little as possible from the original. The contradiction must be obvious and leave no room for ambiguity.
-
-Premise: {premise}
-Original hypothesis (entails): {hypothesis}
-
-Provide only the revised hypothesis that contradicts the premise.
-"""
-
 ENTAILMENT_TO_NEUTRAL_PROMPT = """
 Modify the hypothesis so that it neither logically follows from nor contradicts the premise. The revised hypothesis can deviate from the original as long as it is relevant, plausible, and achieves neutrality.
 
@@ -33,6 +24,15 @@ Premise: {premise}
 Original hypothesis (entails): {hypothesis}
 
 Provide only the revised hypothesis that is neutral with respect to the premise.
+"""
+
+ENTAILMENT_TO_CONTRADICTION_PROMPT = """
+Modify the hypothesis so that it directly contradicts the premise. Make the minimal necessary changes to create an explicit contradiction, ensuring the topic and language deviate as little as possible from the original. The contradiction must be obvious and leave no room for ambiguity.
+
+Premise: {premise}
+Original hypothesis (entails): {hypothesis}
+
+Provide only the revised hypothesis that contradicts the premise.
 """
 
 NEUTRAL_TO_ENTAILMENT_PROMPT = """
@@ -102,18 +102,18 @@ def generate_contrast_set(examples, prompt_template, original_label, new_label):
     return contrast_set
 
 # Generate all contrast sets
-entailment_to_contradiction_set = generate_contrast_set(
-    entailment_examples,
-    ENTAILMENT_TO_CONTRADICTION_PROMPT,
-    "entailment",
-    "contradiction"
-)
-
 entailment_to_neutral_set = generate_contrast_set(
     entailment_examples,
     ENTAILMENT_TO_NEUTRAL_PROMPT,
     "entailment",
     "neutral"
+)
+
+entailment_to_contradiction_set = generate_contrast_set(
+    entailment_examples,
+    ENTAILMENT_TO_CONTRADICTION_PROMPT,
+    "entailment",
+    "contradiction"
 )
 
 neutral_to_entailment_set = generate_contrast_set(
@@ -145,11 +145,11 @@ contradiction_to_neutral_set = generate_contrast_set(
 )
 
 # Save all sets to JSON files
-with open("entailment_to_contradiction.json", "w") as f:
-    json.dump(entailment_to_contradiction_set, f, indent=4)
-
 with open("entailment_to_neutral.json", "w") as f:
     json.dump(entailment_to_neutral_set, f, indent=4)
+
+with open("entailment_to_contradiction.json", "w") as f:
+    json.dump(entailment_to_contradiction_set, f, indent=4)
 
 with open("neutral_to_entailment.json", "w") as f:
     json.dump(neutral_to_entailment_set, f, indent=4)
