@@ -5,7 +5,7 @@ import time
 import json
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyA_ZoFrVY9yVdmG1LBDNE0OcqHIUHQDQMM")  # Replace with env variable or API key
+genai.configure(api_key="API_KEY")  # Replace with env variable or API key
 model = genai.GenerativeModel("gemini-1.5-pro")  # Replace with desired model
 
 # Load and filter SNLI dataset
