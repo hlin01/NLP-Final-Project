@@ -59,15 +59,25 @@ def main():
         dataset_id = None
         # Load the additional dataset from the specified JSONL file
         contrast_set = datasets.load_dataset('json', data_files=args.dataset)
+        
+        # Map integer labels to SNLI-compatible string labels
+        label_mapping = {0: "entailment", 1: "neutral", 2: "contradiction"}
+        contrast_set = contrast_set.map(
+            lambda example: {"label": label_mapping[example["label"]]}
+        )
+
         # Load the SNLI dataset
         snli_dataset = datasets.load_dataset('snli')
+
         # Combine SNLI's train split with the additional data
-        combined_train_set = datasets.concatenate_datasets([snli_dataset['train'], contrast_set['train']])
+        combined_train_split = datasets.concatenate_datasets([snli_dataset['train'], contrast_set['train']])
+
         # Use SNLI's validation split for evaluation
         dataset = datasets.DatasetDict({
-            'train': combined_train_set,
+            'train': combined_train_split,
             'validation': snli_dataset['validation']
         })
+
         # Filter out invalid labels (-1) in the combined train split
         dataset['train'] = dataset['train'].filter(lambda ex: ex['label'] != -1)
     else:
