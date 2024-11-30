@@ -1,71 +1,3501 @@
 [
     {
-        "premise": "This church choir sings to the masses as they sing joyous songs from the book at a church.",
-        "original_hypothesis": "The church is filled with song.",
-        "perturbed_hypothesis": "The choir's performance is well-received.",
+        "premise": "A young black man wearing a dark leather jacket and gloves is standing on a lit stage, looking down.",
+        "original_hypothesis": "A black man is standing on stage.",
+        "perturbed_hypothesis": "He is preparing to perform a magic trick.",
         "original_label": "entailment",
         "new_label": "neutral"
     },
     {
-        "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
-        "original_hypothesis": "The woman is very happy.",
-        "perturbed_hypothesis": "The woman is attending a cultural event.",
+        "premise": "Two men in conversation while sitting at a bar.",
+        "original_hypothesis": "Two men in conversation.",
+        "perturbed_hypothesis": "The two men are discussing a recent sporting event.",
         "original_label": "entailment",
         "new_label": "neutral"
     },
     {
-        "premise": "An old man with a package poses in front of an advertisement.",
-        "original_hypothesis": "A man poses in front of an ad.",
-        "perturbed_hypothesis": "The advertisement is for a delivery service.",
+        "premise": "A lady in a white tank and shorts fixing a wooden drawer.",
+        "original_hypothesis": "The woman is wearing shorts.",
+        "perturbed_hypothesis": "The woman is proficient in basic carpentry.",
         "original_label": "entailment",
         "new_label": "neutral"
     },
     {
-        "premise": "A statue at a museum that no seems to be looking at.",
-        "original_hypothesis": "There is a statue that not many people seem to be interested in.",
-        "perturbed_hypothesis": "The statue's placement within the museum affects visitor engagement.",
+        "premise": "A man is riding a bicycle in the street.",
+        "original_hypothesis": "a bicycle is being ridden",
+        "perturbed_hypothesis": "The man is commuting to work.",
         "original_label": "entailment",
         "new_label": "neutral"
     },
     {
-        "premise": "A land rover is being driven across a river.",
-        "original_hypothesis": "A Land Rover is splashing water as it crosses a river.",
-        "perturbed_hypothesis": "The Land Rover will successfully cross the river.",
+        "premise": "Six or seven people are standing on a pier with a table and a pair of glasses in the foreground.",
+        "original_hypothesis": "Six or seven people are standing on a pier.",
+        "perturbed_hypothesis": "The people on the pier are waiting for a boat.",
         "original_label": "entailment",
         "new_label": "neutral"
     },
     {
-        "premise": "A land rover is being driven across a river.",
-        "original_hypothesis": "A vehicle is crossing a river.",
-        "perturbed_hypothesis": "The river's current is strong.",
+        "premise": "Three bridesmaids in blue dresses hold the train of a bride's wedding dress.",
+        "original_hypothesis": "The bridesmaids are assisting the bride.",
+        "perturbed_hypothesis": "The bridesmaids are wearing matching dresses.",
         "original_label": "entailment",
         "new_label": "neutral"
     },
     {
-        "premise": "A man playing an electric guitar on stage.",
-        "original_hypothesis": "A man playing guitar on stage.",
-        "perturbed_hypothesis": "The man is enjoying the performance.",
+        "premise": "A male baseball player for the baseball team The Indians prepares to catch a ball.",
+        "original_hypothesis": "The male baseball player belongs to the Cleveland Indians.",
+        "perturbed_hypothesis": "The male baseball player is wearing a baseball glove.",
         "original_label": "entailment",
         "new_label": "neutral"
     },
     {
-        "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
-        "original_hypothesis": "A doctor is looking at a book",
-        "perturbed_hypothesis": "The doctor and her assistant are researching a new treatment.",
+        "premise": "Two guys sit on opposite sides of a strange billboard.",
+        "original_hypothesis": "Two guys sit on the side of a billboard.",
+        "perturbed_hypothesis": "The billboard displays an optical illusion.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Bicycles are littering the road as boy pull door.",
+        "original_hypothesis": "A boy is touching a door.",
+        "perturbed_hypothesis": "The boy is looking for a lost key.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man in robe making designs on dirt ground.",
+        "original_hypothesis": "A man making designs in the dirt outside.",
+        "perturbed_hypothesis": "The man is practicing a traditional art form.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A silver car is passing by the entrance of the Hotel Carmel, and several people are outside.",
+        "original_hypothesis": "There are people outside the hotel.",
+        "perturbed_hypothesis": "The Hotel Carmel offers valet parking.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men stand in hula grass skirts stand in the back of a truck at the top of a silver ramp.",
+        "original_hypothesis": "The two men are wearing hula grass skirts.",
+        "perturbed_hypothesis": "The truck is parked at a luau.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men work outside polishing shoes.",
+        "original_hypothesis": "Some men are polishing shoes.",
+        "perturbed_hypothesis": "Shoe polish is commonly available in that area.",
         "original_label": "entailment",
         "new_label": "neutral"
     },
     {
         "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
         "original_hypothesis": "A tan girl runs leans over an object",
-        "perturbed_hypothesis": "The individuals depicted are engaged in separate activities.",
+        "perturbed_hypothesis": "The individuals pictured are outdoors in cold weather.",
         "original_label": "entailment",
         "new_label": "neutral"
     },
     {
-        "premise": "A young family enjoys feeling ocean waves lap at their feet.",
-        "original_hypothesis": "A family is at the beach.",
-        "perturbed_hypothesis": "The family finds the sound of waves soothing.",
+        "premise": "Two males and one female playing in a fountain of water.",
+        "original_hypothesis": "There are people in the fountain.",
+        "perturbed_hypothesis": "The fountain's water pressure is higher than average.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young girl wearing a red shirt and cap smiling and holding a small toy is standing in front of a group of children playing behind her.",
+        "original_hypothesis": "The young girl is wearing a red shirt.",
+        "perturbed_hypothesis": "The young girl is waiting for her turn to play with the other children.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two dogs in a grassy field.",
+        "original_hypothesis": "Two dogs are outside.",
+        "perturbed_hypothesis": "The dogs are alert to something in the distance.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An Asian man is praying at a Buddhist temple.",
+        "original_hypothesis": "A man is practicing his religion.",
+        "perturbed_hypothesis": "The temple is open to the public.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A girl in black pants doing exercises.",
+        "original_hypothesis": "A girl moving her muscles to get exercise in.",
+        "perturbed_hypothesis": "The girl is waiting for a friend.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young man sitting under a tree while others walk down the street.",
+        "original_hypothesis": "A young man is sitting down.",
+        "perturbed_hypothesis": "The young man is waiting for someone.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young man is standing near his bike outside a shop called, \"Sara's Old Fashioned Ice Cream.\"",
+        "original_hypothesis": "The young man is standing.",
+        "perturbed_hypothesis": "The young man enjoys cycling.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men in punk-style clothing stand in front of a wall.",
+        "original_hypothesis": "Two men standing outdoors.",
+        "perturbed_hypothesis": "The wall is made of brick.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A high school band getting ready to perform.",
+        "original_hypothesis": "A high school band prepares themselves to put on a musical performance.",
+        "perturbed_hypothesis": "The high school band is considering fundraising options for new uniforms.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man and a child are laughing at each other.",
+        "original_hypothesis": "Two people are laughing.",
+        "perturbed_hypothesis": "The man and child are enjoying a shared moment of amusement.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Colorful rings spraying water at little girl wearing swimsuit.",
+        "original_hypothesis": "The child is playing.",
+        "perturbed_hypothesis": "The water rings are part of a splash pad at a public park.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A newlywed couple laughing and talking amongst themselves.",
+        "original_hypothesis": "The couple just got married.",
+        "perturbed_hypothesis": "The couple enjoys each other's company.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The firefighter has a hose ready to tackle a car fire.",
+        "original_hypothesis": "A firefighter is about to put out a fire.",
+        "perturbed_hypothesis": "The firefighter is checking the water pressure in the hose.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A yellow dog is running in a field near a mountain.",
+        "original_hypothesis": "A yellow dog is running outdoors.",
+        "perturbed_hypothesis": "The dog is chasing a rabbit.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Three people in uniform are outdoors and are observing a scene which is out of the picture.",
+        "original_hypothesis": "Uniformed people are observing a scene",
+        "perturbed_hypothesis": "The uniformed individuals are waiting for a scheduled transport.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two small boys in blue soccer uniforms use a wooden set of steps to wash their hands in an adult-sized bathroom.",
+        "original_hypothesis": "Two boys washing their hands",
+        "perturbed_hypothesis": "The boys are preparing for a post-game snack.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "skateboarder sliding down a ramp",
+        "original_hypothesis": "A skateboarder is doing a trick.",
+        "perturbed_hypothesis": "The skateboarder is wearing protective gear.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A beautiful bride walking on a sidewalk with her new husband.",
+        "original_hypothesis": "A couple walks outdoors together.",
+        "perturbed_hypothesis": "The sidewalk is made of concrete.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman drives a bike wearing a white blouse with her brown hair blowing in the wind.",
+        "original_hypothesis": "The lady is riding a bike.",
+        "perturbed_hypothesis": "The woman enjoys outdoor activities.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man playing cricket",
+        "original_hypothesis": "someone plays a game",
+        "perturbed_hypothesis": "The cricket pitch is dry.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A girl in a purple top, baggy pants and sneakers is blowing a kiss, while another girl in black watches.",
+        "original_hypothesis": "A girl blows a kiss as another girl sees it.",
+        "perturbed_hypothesis": "The two girls are waiting for a bus.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Four youth and an elder man and woman playing in water just up to the bottom of man's swim trunks.",
+        "original_hypothesis": "A group of people are playing in the water.",
+        "perturbed_hypothesis": "The water is likely less than five feet deep.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A couple sits in the grass.",
+        "original_hypothesis": "People are outside.",
+        "perturbed_hypothesis": "The couple is having a picnic.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "an old shoemaker in his factory",
+        "original_hypothesis": "The shoemaker is inside.",
+        "perturbed_hypothesis": "The shoemaker is repairing shoes.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "a man with a red headband climbing a rock cliff looming over greenery.",
+        "original_hypothesis": "A man is outdoors.",
+        "perturbed_hypothesis": "The man is using specialized climbing equipment.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A newlywed couple laughing and talking amongst themselves.",
+        "original_hypothesis": "The couple is having fun.",
+        "perturbed_hypothesis": "The couple is communicating.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man and a Woman cutting dough.",
+        "original_hypothesis": "Some dough being cut by a man and woman.",
+        "perturbed_hypothesis": "The man and woman are preparing to bake a type of flatbread.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young girl with blond-hair eating a peach.",
+        "original_hypothesis": "There is fruit present.",
+        "perturbed_hypothesis": "The girl prefers sweet fruits.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two people are setting up a photo shoot of a mobile in a white room.",
+        "original_hypothesis": "The room has a camera in it.",
+        "perturbed_hypothesis": "The mobile is made of lightweight materials.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An engineer with a blue jacket and cap wears purple gloves while looking up.",
+        "original_hypothesis": "The engineer had purple gloves.",
+        "perturbed_hypothesis": "The engineer frequently collaborates with architects.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young woman wearing a yellow shirt and off-white shorts is reading a book while sitting on a park bench.",
+        "original_hypothesis": "A woman reading a book while sitting on a bench.",
+        "perturbed_hypothesis": "The park bench is made of wood.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person is sitting on the edge of a rock cliff.",
+        "original_hypothesis": "A person sitting on a rock cliff.",
+        "perturbed_hypothesis": "The person is contemplating the scenic view.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man looking over a bicycle's rear wheel in the maintenance garage with various tools visible in the background.",
+        "original_hypothesis": "A man repairs bicycles.",
+        "perturbed_hypothesis": "The man is inspecting the bicycle's rear wheel.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A female bowler dressed in blue, with another bowler in the background, prepares to throw a ball down the lane.",
+        "original_hypothesis": "A woman is playing a game",
+        "perturbed_hypothesis": "The woman is practicing her bowling technique.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment.",
+        "original_hypothesis": "A boy is on a playground.",
+        "perturbed_hypothesis": "The playground equipment is made of metal and plastic.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A boy wearing jeans, standing on rocks in a river and throwing a stone.",
+        "original_hypothesis": "A boy throwing a stone.",
+        "perturbed_hypothesis": "The boy is attempting to skip the stone across the water.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Little girl with very curly hair drinking her cup of juice.",
+        "original_hypothesis": "A girl is ingesting liquid.",
+        "perturbed_hypothesis": "The girl's hair requires specialized hair products.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is standing in front of a temple while wearing a red hat and red shirt.",
+        "original_hypothesis": "The man is outside.",
+        "perturbed_hypothesis": "The man is considering entering the temple.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A water scene with a sunset in the background.",
+        "original_hypothesis": "There is a water scene with the sunset in the back.",
+        "perturbed_hypothesis": "The air temperature is likely cooler than it was at midday.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "a woman wearing a pink tank top holding a mug of liquid",
+        "original_hypothesis": "A woman in a pink tank top holding a mug.",
+        "perturbed_hypothesis": "The woman is enjoying a beverage on a warm day.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A newspaper delivery man smiles as he walks down a sidewalk holding his papers on top of his head.",
+        "original_hypothesis": "Something that is shown in the shot is made of paper.",
+        "perturbed_hypothesis": "The newspaper delivery man is whistling.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person with braided hair and a gray sweatshirt covers his mouth and sits in a purple chair.",
+        "original_hypothesis": "A man sits in a purple chair.",
+        "perturbed_hypothesis": "The purple chair is in a waiting room.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man holds up a sign that reads \"tattoo\" as many people walk near him.",
+        "original_hypothesis": "A man is holding a tattoo sign.",
+        "perturbed_hypothesis": "The man is advertising a nearby tattoo parlor.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Rock band on stage immersed in light show.",
+        "original_hypothesis": "There is a light show.",
+        "perturbed_hypothesis": "The rock band is playing a popular song.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Young woman is putting her clothes in the dryer portion of a double stacked washer and dryer unit.",
+        "original_hypothesis": "A person drying clothes",
+        "perturbed_hypothesis": "The young woman is doing laundry.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man sitting on steps with a child as a bystander walks by.",
+        "original_hypothesis": "A man and a child sitting on steps saw a woman walk by.",
+        "perturbed_hypothesis": "The man was waiting for someone.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of people watch a breakdancer in a red jacket do a one-handed trick.",
+        "original_hypothesis": "A person is doing tricks in front of crowd.",
+        "perturbed_hypothesis": "The breakdancer's red jacket attracts more attention than his dance moves.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An American wrestler in a purple singlet wrestlers an opponent.",
+        "original_hypothesis": "Two wrestlers are in a match.",
+        "perturbed_hypothesis": "The American wrestler prefers grappling techniques.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "3 people are shopping in a market.",
+        "original_hypothesis": "There are people at a market.",
+        "perturbed_hypothesis": "The market sells fresh produce.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two wrestlers in an intense match.",
+        "original_hypothesis": "Wrestlers are participating in a match.",
+        "perturbed_hypothesis": "One of the wrestlers recently changed weight classes.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man gets a skateboard up on a big rock.",
+        "original_hypothesis": "The skateboarder is near a rock.",
+        "perturbed_hypothesis": "The man intends to skateboard down the rock.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A boy in a green shirt on a skateboard on a stone wall with graffiti",
+        "original_hypothesis": "A boy riding a skateboard on a stone wall.",
+        "perturbed_hypothesis": "The stone wall is a popular spot for skateboarders.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of people standing around smiling, and in the background are more people and handmade signs.",
+        "original_hypothesis": "A group of people are standing around with smiles are their faces, and in the background are more people and handmade signs.",
+        "perturbed_hypothesis": "The gathering is likely related to a community event.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of motorcycles wearing black.",
+        "original_hypothesis": "Few motorcycles in black.",
+        "perturbed_hypothesis": "Some motorcycles are customized with chrome accents.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two people are riding bicycles next to a building.",
+        "original_hypothesis": "Two people are riding bikes near a building.",
+        "perturbed_hypothesis": "The building is a bicycle repair shop.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Five rodeo contestants wait their turn.",
+        "original_hypothesis": "People at a rodeo.",
+        "perturbed_hypothesis": "Western attire is commonly worn.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man dressed all in black puts his hands on an art sculpture.",
+        "original_hypothesis": "There is a sculture",
+        "perturbed_hypothesis": "The man is adjusting his gloves.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "baseball player dressed in blue with a red helmet at home plate in front of a catcher and umpire swinging a bat",
+        "original_hypothesis": "A baseball player is swinging a bat.",
+        "perturbed_hypothesis": "The baseball player is attempting a bunt.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "pedestrian walking on the street",
+        "original_hypothesis": "A person walking on the street outside.",
+        "perturbed_hypothesis": "The pedestrian is listening to music.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a black tank top wearing a red plaid hat",
+        "original_hypothesis": "A man in a hat.",
+        "perturbed_hypothesis": "The man is carrying a guitar.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man jumping over a rusty fence on a blue bicycle.",
+        "original_hypothesis": "Man doing a trick riding his bicycle.",
+        "perturbed_hypothesis": "The man is taking a shortcut home.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men in workers' gear and colorful hard hats standing on board what appears to be a large ship, next to some very large machinery.",
+        "original_hypothesis": "two men in workers gear are on a large ship with machinery",
+        "perturbed_hypothesis": "The men are inspecting safety protocols related to the machinery.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a red shirt and blue jeans is standing in front of a wall with other people's shadows in front of him on the pavement.",
+        "original_hypothesis": "A man stands by a wall.",
+        "perturbed_hypothesis": "The shadows belong to people waiting in line for a food truck.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of men in blue shirts, banded hats, and red bandannas stand in a group.",
+        "original_hypothesis": "a bunch of guys in colorful clothes stand together",
+        "perturbed_hypothesis": "The men are waiting for a bus.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men outside of a restaurant.",
+        "original_hypothesis": "Two men are outside.",
+        "perturbed_hypothesis": "The restaurant serves Italian food.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "First Lady Laura Bush at podium, in front of seated audience, at the White House Conference on Global Literacy.",
+        "original_hypothesis": "Laura Bush stands in front of a conference",
+        "perturbed_hypothesis": "Laura Bush is advocating for increased funding for global literacy programs.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of smiling people are posing outdoors for a picture.",
+        "original_hypothesis": "A crowd of people are taking a picture outside.",
+        "perturbed_hypothesis": "The photograph being taken includes a natural landscape element.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man swings his tennis racquet as the tennis ball gets closer to him.",
+        "original_hypothesis": "A man is playing tennis.",
+        "perturbed_hypothesis": "The man is practicing his tennis swing.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "There is a Victorian style building in the background, and in the foreground is a lake where a tiny paddle boat sits with three people in it.",
+        "original_hypothesis": "Three people sit in a paddle boat.",
+        "perturbed_hypothesis": "The lake is used for recreational activities.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man wearing a long brown robe is playing the guitar while another person is sitting at the drums and yet another is wearing a long gray robe and singing.",
+        "original_hypothesis": "The robe is brown.",
+        "perturbed_hypothesis": "The musicians are performing a song with a spiritual theme.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in an apron smiles as he pokes a frying donut with a little metal stick.",
+        "original_hypothesis": "The man is cooking food.",
+        "perturbed_hypothesis": "The man is checking the temperature of the oil.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A red truck is parked next to a burning blue building while a man in a green vest runs toward it.",
+        "original_hypothesis": "The burning blue building smells of smoke",
+        "perturbed_hypothesis": "The man in the green vest works for a landscaping company.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two women are getting their pictures taken with a man in his underwear.",
+        "original_hypothesis": "There are 3 people in the picture.",
+        "perturbed_hypothesis": "The man is a model for an underwear advertisement.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man dressed in a brown shirt and tan shorts is down on one knee looking at some type of machinery.",
+        "original_hypothesis": "The man is examining a machine.",
+        "perturbed_hypothesis": "The man is proposing marriage with a ring hidden inside a custom-made box designed to look like machinery.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Three females, one a child, one young adult, and one middle-aged at delicatessen.",
+        "original_hypothesis": "There is a group of women a the deli.",
+        "perturbed_hypothesis": "They are each ordering a different type of sandwich.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman taping a paper notice to a board.",
+        "original_hypothesis": "A woman taping something to a board.",
+        "perturbed_hypothesis": "The woman is posting information about a community event.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A little girl standing in the middle of a street cleared for an oncoming parade.",
+        "original_hypothesis": "A girl is by a parade.",
+        "perturbed_hypothesis": "The little girl is waiting for her mother.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An older woman with short red-hair is preparing food in a kitchen.",
+        "original_hypothesis": "An old woman is in the kitchen.",
+        "perturbed_hypothesis": "The kitchen contains stainless steel appliances.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A sitting man is holding a partially carved stone in front a partially painted wall.",
+        "original_hypothesis": "A man is holding a stone in front of a wall.",
+        "perturbed_hypothesis": "The man is pausing to consider his next artistic stroke.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young girl, is mid jump, while performing a dance routine.",
+        "original_hypothesis": "A young girl is in the middle of jumping during her dance routine.",
+        "perturbed_hypothesis": "The young girl is practicing a dance routine that includes jumps.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young woman wearing jeans and a gray sweater walks across an empty street.",
+        "original_hypothesis": "A woman is walking.",
+        "perturbed_hypothesis": "The young woman is going to meet a friend.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A choir made up of varying ages of people are performing.",
+        "original_hypothesis": "The choir is singing.",
+        "perturbed_hypothesis": "The choir is rehearsing.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The player in the white dribbles the ball, while the player in the orange tries to stop him.",
+        "original_hypothesis": "Two people are playing ball.",
+        "perturbed_hypothesis": "The players are practicing for a basketball game.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "a woman working in the storefront of a jewelry shop fixing the display shelf.",
+        "original_hypothesis": "A woman fixes a display shelf.",
+        "perturbed_hypothesis": "The woman is rearranging necklaces for better visibility.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A older man working at a loom",
+        "original_hypothesis": "An old man looming some threads.",
+        "perturbed_hypothesis": "The older man is repairing the loom.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A brown dog and a black and white dog are running over grassy hills.",
+        "original_hypothesis": "two dogs run",
+        "perturbed_hypothesis": "The dogs are herding sheep.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A crowd watching a duo in blue dance on a stage.",
+        "original_hypothesis": "A crowd is watching people dance.",
+        "perturbed_hypothesis": "The stage lighting is affecting the audience's perception of the dancers' costumes.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men and one woman with blond-hair walk through a gate with barbed wire on top.",
+        "original_hypothesis": "People are walking through a gate.",
+        "perturbed_hypothesis": "The gate is made of metal.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A professional swimmer spits water out after surfacing while grabbing the hand of someone helping him back to land.",
+        "original_hypothesis": "A person is swimming.",
+        "perturbed_hypothesis": "The swimmer experienced some water inhalation during their swim.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "a woman in a brown dress looking at papers in front of a class.",
+        "original_hypothesis": "A woman is checking out papers.",
+        "perturbed_hypothesis": "The woman is presenting a lesson.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man wearing a blue apron and long rubber boots is dragging a flotation device from a long row of flotation devices.",
+        "original_hypothesis": "A man wearing work clothes and boots is working on a flotation device.",
+        "perturbed_hypothesis": "The man is retrieving his personal flotation device.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man sitting playing guitar.",
+        "original_hypothesis": "A man is sitting and strumming a guitar.",
+        "perturbed_hypothesis": "The man is waiting for a bus.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A bearded man wearing a blue shirt and white t-shirt is working on a fishing net.",
+        "original_hypothesis": "Someone is fixing a net.",
+        "perturbed_hypothesis": "Coastal erosion is accelerating in the area.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An older caucasian couple is having their picture taken by a stone statue of a man and woman kissing.",
+        "original_hypothesis": "The couple standing by a statue are having their picture taken.",
+        "perturbed_hypothesis": "The statue depicts a historical love story significant to the town where it is located.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A guy on Rollerblades, sliding across a rail.",
+        "original_hypothesis": "The skateboarder rides the rail.",
+        "perturbed_hypothesis": "The guy is practicing balance tricks.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man from one football team trying to dodge a tackle from a player from the opposing football team.",
+        "original_hypothesis": "A man tries to tackle a player in a game of football.",
+        "perturbed_hypothesis": "The man attempting the dodge recently recovered from a hamstring injury.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man jumping a dirt ramp on a bmx bike.",
+        "original_hypothesis": "A man jumps his bike.",
+        "perturbed_hypothesis": "The man is practicing bicycle motocross.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man examines a bike during a yard sale.",
+        "original_hypothesis": "A man is at a yard sale",
+        "perturbed_hypothesis": "The man is considering purchasing a used bicycle.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Person walking down lighted tunnel with green handrail.",
+        "original_hypothesis": "a person walking in a tunnel",
+        "perturbed_hypothesis": "The tunnel is undergoing scheduled maintenance.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Performer who is wearing 2 hats a scary mask and a black and white robe.",
+        "original_hypothesis": "A costume is being worn by a performer.",
+        "perturbed_hypothesis": "The performer is preparing for a role in a theatrical production.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "At least eight people are sitting at a table in a building that overlooks the city.",
+        "original_hypothesis": "people sitting at a table",
+        "perturbed_hypothesis": "The building has more than five floors.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two people bicycle on a path separated by small mountains.",
+        "original_hypothesis": "Two people are riding on bikes outside.",
+        "perturbed_hypothesis": "The path is popular for cyclists.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two soccer players try to take possession of the ball, but the player in yellow falls as the player in white jumps over him.",
+        "original_hypothesis": "people playing soccer",
+        "perturbed_hypothesis": "The player in white may have unintentionally clipped the player in yellow's heel.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A helmeted male airborne on a bike on a dirt road.",
+        "original_hypothesis": "A man ridding his bike.",
+        "perturbed_hypothesis": "The airborne cyclist is attempting a jump.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Dog with black and tan face standing in water looking up at camera.",
+        "original_hypothesis": "a dog is wet",
+        "perturbed_hypothesis": "The dog is anticipating a thrown object.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The man in colorful shorts is barefoot.",
+        "original_hypothesis": "The man has shorts but no shoes.",
+        "perturbed_hypothesis": "The man prefers casual attire.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Beautiful girl in white dress steps into the sunlight.",
+        "original_hypothesis": "A girl is wearing a dress.",
+        "perturbed_hypothesis": "The sunlight makes the white dress appear brighter.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a white t-shirt is holding a pair of sunglasses.",
+        "original_hypothesis": "A man is wearing a white shirt.",
+        "perturbed_hypothesis": "The man is considering putting on the sunglasses.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is giving another man a haircut while three other guys stand around.",
+        "original_hypothesis": "A guy is getting his hair trimmed.",
+        "perturbed_hypothesis": "The men are discussing local sports teams.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person in an orange jacket getting out of the rear of a Toyota SUV, parked in front of a view of the ocean and mountains.",
+        "original_hypothesis": "A person is getting out of an SUV.",
+        "perturbed_hypothesis": "The person is admiring the ocean and mountain view.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a blue jogging suit is running on the sidewalk in front of a painting.",
+        "original_hypothesis": "A man is outside on the streets.",
+        "perturbed_hypothesis": "The painting depicts a rural landscape.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A grim looking man with sunglasses pilots a boat.",
+        "original_hypothesis": "There is a man on a boat.",
+        "perturbed_hypothesis": "The boat is traveling upstream.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "a woman and a child both wearing red outfits walking up a street",
+        "original_hypothesis": "Two people wearing red outfits walking on a street",
+        "perturbed_hypothesis": "The woman and child are going to a birthday party.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man with black clothing is sweeping steps with a broom.",
+        "original_hypothesis": "The man is sweeping the steps.",
+        "perturbed_hypothesis": "The man is a building superintendent.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "a man playing guitar and signing next to a woman in a dress playing an instrument",
+        "original_hypothesis": "A man and woman make music.",
+        "perturbed_hypothesis": "The musicians are performing outdoors.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of children sitting on the ground laughing as another boy jumps over the group.",
+        "original_hypothesis": "The boy is jumping over kids.",
+        "perturbed_hypothesis": "The boy is practicing parkour moves.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a competitive field sport jumps into sand and his glasses fall off.",
+        "original_hypothesis": "A man's glasses fall off.",
+        "perturbed_hypothesis": "The impact of sand landings on the retention of eyewear varies depending on the type of eyewear and the force of impact.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man walking a small pug.",
+        "original_hypothesis": "A man is near a dog.",
+        "perturbed_hypothesis": "The man prefers small dog breeds.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man with a spider web & spiders painted on his face.",
+        "original_hypothesis": "The man has his face painted.",
+        "perturbed_hypothesis": "The man is attending a costume party.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Small girl in a pink dress is playing electronic drum pads with sticks.",
+        "original_hypothesis": "the girl is wearing pink color frok",
+        "perturbed_hypothesis": "The girl is developing her sense of rhythm.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "One young boy in a yellow long-sleeved shirt and jeans sitting down, with five adults in front of him, one operating a video camera.",
+        "original_hypothesis": "An adult using a video camera.",
+        "perturbed_hypothesis": "The boy is being interviewed.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men in black jackets behind a white handrail.",
+        "original_hypothesis": "The two me are wearing black jackets",
+        "perturbed_hypothesis": "The white handrail is made of metal.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A yellow backhoe near a large pile of dirt and rocks near a blue machine with a worker standing on it.",
+        "original_hypothesis": "A worker is outside.",
+        "perturbed_hypothesis": "The blue machine is used for lifting materials.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Female in a military uniform with her hair tied back.",
+        "original_hypothesis": "the female is wearing her hair up",
+        "perturbed_hypothesis": "The female is a member of a military organization.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A lady sitting on a bench with a book on her lap with a boy and girl on either side of her.",
+        "original_hypothesis": "A woman and two kids next to each other.",
+        "perturbed_hypothesis": "The lady is enjoying a quiet moment outdoors.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A black man in a long sleeves white collared shirt and a tie is walking to work in a big city.",
+        "original_hypothesis": "The man is wearing work attire and is walking to his job.",
+        "perturbed_hypothesis": "The man is walking to an appointment.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The man is wearing an orange and black polo shirt and is kneeling with his lunch box in one hand while holding a banana in his other hand.",
+        "original_hypothesis": "A man is eating lunch.",
+        "perturbed_hypothesis": "The man is packing or unpacking his lunch.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men stand near a piece of large machinery.",
+        "original_hypothesis": "The machinery is very large",
+        "perturbed_hypothesis": "The men are discussing the machinery's maintenance schedule.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man and a woman are lying together on a grassy park field near a waterfront.",
+        "original_hypothesis": "Two people are lying outside.",
+        "perturbed_hypothesis": "The man and woman are observing cloud formations.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Blond boy in striped shirt on the swing set.",
+        "original_hypothesis": "A boy is on the swing set.",
+        "perturbed_hypothesis": "The swing set is located in a public park.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A lady holding one dog while another dog is playing in the yard.",
+        "original_hypothesis": "A lady has two dogs with her.",
+        "perturbed_hypothesis": "The lady is dog-sitting.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man dressed in a surfing shirt and blue and white shorts skillfully guides his yellow board with its multicolored sail over the crest of an ocean wave, flipping over in the process.",
+        "original_hypothesis": "a man surfs",
+        "perturbed_hypothesis": "The man is participating in a photoshoot for a surf apparel company.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Woman running in a park while listening to music.",
+        "original_hypothesis": "A woman jogging in a park.",
+        "perturbed_hypothesis": "The woman is improving her cardiovascular health.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man with a latex glove and black t-shit is standing in front of a Chevy van.",
+        "original_hypothesis": "a man standing in front of a van",
+        "perturbed_hypothesis": "The Chevy van needs an oil change.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man examines his facial hair.",
+        "original_hypothesis": "The man is looking at his face.",
+        "perturbed_hypothesis": "The man is considering growing a beard.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young male sitting in front of a computer monitor",
+        "original_hypothesis": "Someone is sitting in front of a computer.",
+        "perturbed_hypothesis": "The young male is learning to code.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman sits on a rug next to a shirtless boy who is looking in the direction of a checkers board that includes several pieces.",
+        "original_hypothesis": "A woman sits on a rug next to a boy who is looking at a gameboard.",
+        "perturbed_hypothesis": "The woman is telling the boy a story.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young girl is standing in a kitchen holding a green bib.",
+        "original_hypothesis": "A girl is holding a bib.",
+        "perturbed_hypothesis": "The girl is about to bake cookies.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of adults standing up with children in sports attire kneeling on the ground.",
+        "original_hypothesis": "A group of adults and kids.",
+        "perturbed_hypothesis": "The adults are supervising the children.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man with an afro and bandanna playing electric guitar.",
+        "original_hypothesis": "the guy with the afro is playing on the guitar",
+        "perturbed_hypothesis": "The man enjoys funk music.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men climbing on a wooden scaffold.",
+        "original_hypothesis": "Two people climbing on a wooden scaffold.",
+        "perturbed_hypothesis": "The wooden scaffold requires regular maintenance.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young boy wearing an orange uniform stands on the field near a colorful ball.",
+        "original_hypothesis": "A boy is with a ball.",
+        "perturbed_hypothesis": "The boy is waiting for the game to start.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person with dark hair in a white shirt is sitting in a chair in water with a \"swim at your own risk\" sign on the wall.",
+        "original_hypothesis": "a person sits in a chair in water",
+        "perturbed_hypothesis": "The chair is partially submerged due to recent flooding.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Three men in orange suits are doing street repairs at night.",
+        "original_hypothesis": "Three men are doing repairs.",
+        "perturbed_hypothesis": "The street repairs are related to fiber optic cable installation.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman wearing a black t-shirt and green capri pants walks in front of a giant clock.",
+        "original_hypothesis": "The clock is accurate at least two times a day.",
+        "perturbed_hypothesis": "The woman is on her way to meet a friend.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An elderly male is blowing air into an object.",
+        "original_hypothesis": "An elderly male is blowing air inyto an object",
+        "perturbed_hypothesis": "The elderly male is checking the inflation level of a pool toy.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "While one man, in the white cap, is golfing, three other men are in the middle of a conversation.",
+        "original_hypothesis": "Three men talk while their fourth takes a shot.",
+        "perturbed_hypothesis": "The three men are discussing the upcoming club championship.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Men in an office with computers and a projector screen.",
+        "original_hypothesis": "There are computers and a projector screen in the room.",
+        "perturbed_hypothesis": "The men are discussing a project.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Beautiful girl in white dress steps into the sunlight.",
+        "original_hypothesis": "It is a sunny day.",
+        "perturbed_hypothesis": "She is going to a wedding.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is holding an accordion while leaning against a brown fence that overlooks some water.",
+        "original_hypothesis": "A man leans against a fence",
+        "perturbed_hypothesis": "The man is waiting for a boat.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A news crew in rain jackets standing in front of line of police tape outside of a residence.",
+        "original_hypothesis": "There are people outdoors.",
+        "perturbed_hypothesis": "The news crew is reporting on a neighborhood dispute.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A boy in red and a girl pink are walking through a low cut field.",
+        "original_hypothesis": "Kids are walking in a field.",
+        "perturbed_hypothesis": "The field contains wildflowers.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Five young indian girls dress in colorful dresses are holding hands and smiling forming a circle",
+        "original_hypothesis": "Five girls are playing together.",
+        "perturbed_hypothesis": "Five girls are posing for a photograph.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A brown and white dog swims in a backyard swimming pool.",
+        "original_hypothesis": "A brown dog swims.",
+        "perturbed_hypothesis": "The dog enjoys the water.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of young boys wearing track jackets stretch their legs on a gym floor as they sit in a circle.",
+        "original_hypothesis": "A group of boys are preparing to work out.",
+        "perturbed_hypothesis": "The boys are waiting for their coach to arrive.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "People gathered around a table with food and wine on it.",
+        "original_hypothesis": "Food and wine are on the table that has many people surrounding it.",
+        "perturbed_hypothesis": "The people are celebrating a special occasion.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A fighter jet plane is landed outside Notre Dame cathedral at night.",
+        "original_hypothesis": "The fighter jet plane is not moving.",
+        "perturbed_hypothesis": "The fighter jet plane is undergoing maintenance.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man wearing a blue apron and long rubber boots is dragging a flotation device from a long row of flotation devices.",
+        "original_hypothesis": "A man in rubber boots and a work apron is rubbing his face in between pulling floating objects.",
+        "perturbed_hypothesis": "The man is preparing the flotation devices for winter storage.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two police officers in yellow reflective jackets are standing in a shopping zone having a conversation.",
+        "original_hypothesis": "Two police officers in yellow reflective jackets are standing in a shopping zone",
+        "perturbed_hypothesis": "The police presence in the shopping zone may be related to a recent increase in shoplifting reports.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "In front is a guy singing and playing guitar and a white shirted drummer in the back.",
+        "original_hypothesis": "There are people making music.",
+        "perturbed_hypothesis": "The drummer is left-handed.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A little boy in flannel pajama pants and an orange shirt is playing the guitar on the couch.",
+        "original_hypothesis": "The child practices guitar indoors",
+        "perturbed_hypothesis": "The child enjoys music.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Several bicyclers are carrying their bikes up a grassy hill.",
+        "original_hypothesis": "People carrying bikes.",
+        "perturbed_hypothesis": "The grassy hill is steep.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A dog jumping over a beam",
+        "original_hypothesis": "An animal is jumping.",
+        "perturbed_hypothesis": "The dog is retrieving a thrown object.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of people stares at a wall that is filled with drawings in a building.",
+        "original_hypothesis": "A group of people are looking at something",
+        "perturbed_hypothesis": "The building is a public art gallery.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two woman wearing dresses are standing outside on the grass while one of them is holding a cup and saucer.",
+        "original_hypothesis": "Two people are standing on the grass.",
+        "perturbed_hypothesis": "The woman holding the cup and saucer is considering offering a sip to the other woman.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man and a child at an exhibit booth looking at something.",
+        "original_hypothesis": "A man and a child look at something.",
+        "perturbed_hypothesis": "The man and child are considering purchasing the item on display.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a white shirt and gray slack hitting a golf ball on a golf course, with trees and power lines in the background.",
+        "original_hypothesis": "A man is hitting a golf ball.",
+        "perturbed_hypothesis": "The man is practicing his golf swing.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "a red-haired woman playing the violin",
+        "original_hypothesis": "A woman is playing an instrument.",
+        "perturbed_hypothesis": "The violin is made of wood.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The American footballer in yellow catches the ball whilst under pressure from the payer in white.",
+        "original_hypothesis": "The American football player in yellow catches the ball while under pressure from the player in white.",
+        "perturbed_hypothesis": "The American football player in yellow maintains possession of the ball after a contested catch.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The older woman smiles as she holds up a hammer.",
+        "original_hypothesis": "A woman is holding a tool.",
+        "perturbed_hypothesis": "The woman is contemplating home repairs.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is riding up an escalator that is carrying shopping carts.",
+        "original_hypothesis": "The man is inside a building.",
+        "perturbed_hypothesis": "The man is going to buy groceries.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The blond young man who had been splattered with paint colors of blue, orange, and green held up his camera to take a picture.",
+        "original_hypothesis": "A man covered in paint takes a photo.",
+        "perturbed_hypothesis": "The young man enjoys street photography.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two girls playing catch on a lawn",
+        "original_hypothesis": "Children playing a game on green grass.",
+        "perturbed_hypothesis": "The lawn is recently mowed.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An Obama Biden supporter cheers for the Presidential candidate and his running mate.",
+        "original_hypothesis": "Someone is cheering for a presidential candidate.",
+        "perturbed_hypothesis": "Political rallies often involve enthusiastic displays of support.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man sits on a couch beside a colorful cushion with a pencil in his hand.",
+        "original_hypothesis": "The man is holding a pencil.",
+        "perturbed_hypothesis": "The man is contemplating redecorating his living room.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man rides a bicycle while a young girl holds onto the back of him.",
+        "original_hypothesis": "A man rides a bike.",
+        "perturbed_hypothesis": "The man is transporting groceries.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Four individuals are sitting on a small dock by the water as a boat sails by.",
+        "original_hypothesis": "Four people sitting by the water.",
+        "perturbed_hypothesis": "The individuals on the dock are discussing the rising cost of boat fuel.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man and a woman are showing their kid their little baby.",
+        "original_hypothesis": "A man and woman show off their baby.",
+        "perturbed_hypothesis": "The man and woman are the baby's parents.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A child on a swing.",
+        "original_hypothesis": "A kid is on the swing.",
+        "perturbed_hypothesis": "The swing set is located in a public park.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A snowboarder dressed in yellow snow pants and a helmet catches some air on fresh powder.",
+        "original_hypothesis": "A snowboarder is going snowboarding",
+        "perturbed_hypothesis": "The snowboarder is attempting a new trick.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Four people and a dog out in the woods.",
+        "original_hypothesis": "There are animals outdoors.",
+        "perturbed_hypothesis": "The group is searching for edible plants.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A bunch of people are standing all together in a street with a building in the background.",
+        "original_hypothesis": "A group of people are standing.",
+        "perturbed_hypothesis": "The building in the background is an apartment complex.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man, wearing a white hate and sunglasses, is sitting in a white truck that says \"Coast Gas\".",
+        "original_hypothesis": "A man is sitting on a truck.",
+        "perturbed_hypothesis": "The man is waiting for a work order.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A brown dog wearing a collar is chasing and biting on a red broom.",
+        "original_hypothesis": "There is an animal biting a broom.",
+        "perturbed_hypothesis": "The dog is exhibiting playful behavior.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is in front of a dryer in a laundromat with both hands reaching into a bin or basket.",
+        "original_hypothesis": "A man reaches into a basket at a laundromat",
+        "perturbed_hypothesis": "The man is looking for lost change.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "On a bright and sonny day a man with blue trunks and white and blue shirt appears to be preparing to take a canoe ride",
+        "original_hypothesis": "A man is about to ride in a canoe.",
+        "perturbed_hypothesis": "The man is adjusting the straps on his life vest.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of people taking pictures on a walkway in front of a large body of water.",
+        "original_hypothesis": "A group of people posing in front of a body of water.",
+        "perturbed_hypothesis": "The group of people are birdwatching.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A boy stands in the middle of a crowd of teenagers.",
+        "original_hypothesis": "A person stands in the middle of a crowd of teenagers.",
+        "perturbed_hypothesis": "The boy is listening to music on headphones.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person rides up a narrow street on a bike, past a spray-painted sign of a hand giving the peace sign.",
+        "original_hypothesis": "A person riding a bike outside.",
+        "perturbed_hypothesis": "The person is commuting to work.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "There is a group of children getting their picture taken with presents.",
+        "original_hypothesis": "Children opening presents.",
+        "perturbed_hypothesis": "The children are smiling for the photograph.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Cook handling hot tray with food on it.",
+        "original_hypothesis": "cook prepares food",
+        "perturbed_hypothesis": "The cook is rotating the tray to ensure even cooling.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman player in white and black, sends the volleyball over the net, while the opposing team in navy blue, tries to block it, as the coach and a few spectators watch, in a gym.",
+        "original_hypothesis": "They are in a gym",
+        "perturbed_hypothesis": "The volleyball team in navy blue will lose the match.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A red-haired woman in a pink shirt attempts to descend a tree.",
+        "original_hypothesis": "A woman climbing down a tree.",
+        "perturbed_hypothesis": "Squirrels frequently inhabit the same tree.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman talks on a cellphone while sitting in front of blue railings that are in front of the ocean.",
+        "original_hypothesis": "She has a conversation on her phone outdoors",
+        "perturbed_hypothesis": "She is waiting for a boat tour.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A male with a prosthetic leg diving for a volleyball.",
+        "original_hypothesis": "The male has at least one prosthetic leg.",
+        "perturbed_hypothesis": "The male is part of a competitive volleyball team.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a green shirt and large beige hat is supervising a newsstand that sells snacks and drinks.",
+        "original_hypothesis": "a man in green shirt",
+        "perturbed_hypothesis": "The newsstand offers a variety of local newspapers.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men working on the roof of an apartment building with a nice looking skyline behind them.",
+        "original_hypothesis": "Two men working on the roof of an apartment building",
+        "perturbed_hypothesis": "The apartment building is undergoing roof repairs.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A runner poses for a picture with friends in a parking lot.",
+        "original_hypothesis": "The runner is posing for a picture.",
+        "perturbed_hypothesis": "The runner recently completed a race.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An old man in a gray shirt smiles at the camera while doing laundry in a small room.",
+        "original_hypothesis": "The man is old",
+        "perturbed_hypothesis": "The man finds doing laundry a calming activity.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A motorcyclist is flying through the air above a dirt path.",
+        "original_hypothesis": "The person is riding a motorcycle",
+        "perturbed_hypothesis": "The motorcyclist is experiencing a brief period of weightlessness.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A child looks at a cactus garden.",
+        "original_hypothesis": "A human is looking at plants.",
+        "perturbed_hypothesis": "The child is considering touching the cacti.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A dog attacking a man wearing protective gear.",
+        "original_hypothesis": "The man protected himself.",
+        "perturbed_hypothesis": "The dog was reacting to a perceived threat.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Three men are playing frisbee in the woods.",
+        "original_hypothesis": "Three men are outside.",
+        "perturbed_hypothesis": "The frisbee is blue.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two bearded men sit side by side.",
+        "original_hypothesis": "Two men are sitting down.",
+        "perturbed_hypothesis": "The men are discussing philosophy.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two teams of men are playing basketball on a court in an empty stadium.",
+        "original_hypothesis": "The men are playing basketball with no audience.",
+        "perturbed_hypothesis": "The men are playing a full-court game.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man on a skateboard on steps in front glass doors of a brick building.",
+        "original_hypothesis": "The brick building had glass doors in front",
+        "perturbed_hypothesis": "The man is attempting a skateboard trick.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young black man is getting his hair buzzed off.",
+        "original_hypothesis": "A man is getting a hair cut.",
+        "perturbed_hypothesis": "He is preparing for a sports competition.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is watching as a woman is reading a piece of paper.",
+        "original_hypothesis": "A person watches someone.",
+        "perturbed_hypothesis": "The woman is reading a letter from a distant friend.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Women in costume stand on a stage.",
+        "original_hypothesis": "The women are on stage.",
+        "perturbed_hypothesis": "The women are rehearsing a play.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman outside in the snow holds a container that produces steam.",
+        "original_hypothesis": "A human in snow.",
+        "perturbed_hypothesis": "The container holds a hot beverage.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A child in a red coat waves a hand in the air while lying in snow beside a red plastic sled.",
+        "original_hypothesis": "A child is playing in the snow.",
+        "perturbed_hypothesis": "The child is wearing a red coat.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A little boy with blond-hair stares down at display case featuring cookies and cakes.",
+        "original_hypothesis": "A boy is looking at pastries.",
+        "perturbed_hypothesis": "The boy is considering which treat his mother will allow him to purchase.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a black ball cap, black jacket and pants sitting in front of a building painted white and blue with the words ING and PEOPLE written on it.",
+        "original_hypothesis": "The man is in front of a building.",
+        "perturbed_hypothesis": "The man is waiting for a ride.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "two girls looking out the window at \"Hair at Hart.\"",
+        "original_hypothesis": "Two kids wait for their mom to finish her hair appointment.",
+        "perturbed_hypothesis": "The girls are discussing the different hairstyles they see.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman in a white and red basketball uniform with the number fifteen on her chest prepares to shoot a free throw.",
+        "original_hypothesis": "A woman in a white and red basketball uniform.",
+        "perturbed_hypothesis": "The basketball player is focused on making the shot.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A skier being helped onto a red stretcher by three men, while two other men and a woman prepare to help.",
+        "original_hypothesis": "An injured skier being taken for medical help",
+        "perturbed_hypothesis": "The skier is being transported down the mountain.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "an Asian woman dances with long ribbons, she is mid jump with her legs pointed to the right and the red ribbons flowing on either side of her",
+        "original_hypothesis": "AN Asian woman is dancing.",
+        "perturbed_hypothesis": "The dancer is wearing a silk costume.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man with a red helmet and numbers on his arm and leg is riding a red racing bike.",
+        "original_hypothesis": "A person wearing numbers is using a nonmotorized vehicle.",
+        "perturbed_hypothesis": "The racing bike is a popular model among amateur cyclists.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "She is standing outside a building.",
+        "original_hypothesis": "A female is outside, standing.",
+        "perturbed_hypothesis": "The building is an office building.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man with two small boys making a purchase from a woman.",
+        "original_hypothesis": "The man brings two little boys with him to buy something from a woman.",
+        "perturbed_hypothesis": "The woman is selling children's toys.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A large number of people wearing only white and red are walking on a street.",
+        "original_hypothesis": "A large number of people walking on a street.",
+        "perturbed_hypothesis": "The street is hosting a parade.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man painting a sign onto his food cart.",
+        "original_hypothesis": "A man is working on a cart.",
+        "perturbed_hypothesis": "The man is considering different color schemes for his food cart.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A BMX rider is in midair while on a dirt trail.",
+        "original_hypothesis": "The BMX rider is riding a two wheeled vehicle.",
+        "perturbed_hypothesis": "The BMX rider is attempting a trick.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Violin soloists take the stage during the orchestra's opening show at the theater.",
+        "original_hypothesis": "People are playing violin on stage.",
+        "perturbed_hypothesis": "The theater's acoustics are well-suited for string instruments.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Children, including one with a painted face, pet tiny turtles that are crawling in the green grass.",
+        "original_hypothesis": "Turtles are crawling in the green grass.",
+        "perturbed_hypothesis": "The child with the painted face enjoys interacting with small animals.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Young boy smiles at the camera from the tire swing.",
+        "original_hypothesis": "He is outside.",
+        "perturbed_hypothesis": "He enjoys swinging.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two women and a man are sitting down eating and drinking various items.",
+        "original_hypothesis": "A small group of people are eating and drinking together.",
+        "perturbed_hypothesis": "The man and one of the women know each other from work.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two children, both wearing tan coats, are embracing one another.",
+        "original_hypothesis": "Two kids are hugging.",
+        "perturbed_hypothesis": "The children are siblings.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A child with a yellow shirt riding a yellow bike in a city.",
+        "original_hypothesis": "A kid riding his bike down the street.",
+        "perturbed_hypothesis": "The child enjoys outdoor activities.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The basketball player in the blue uniform is guarding the player in the orange uniform, who has the ball.",
+        "original_hypothesis": "A orange uniform basketball player with ball is guarded by, a blue uniform opponent team player",
+        "perturbed_hypothesis": "The basketball player in the orange uniform is considering passing the ball to a teammate.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The man in the dark maroon shirt is kicking something.",
+        "original_hypothesis": "the guy kicked something",
+        "perturbed_hypothesis": "The man in the dark maroon shirt is stretching his leg.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A dark-skinned man in white shirts and a black sleeveless shirt flips his skateboard on a cement surface surrounded by tall buildings and palm trees.",
+        "original_hypothesis": "a man does a skateboarding trick on a cement surface",
+        "perturbed_hypothesis": "The man is taking a break from skateboarding to admire the surrounding architecture.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Swimming in the wide blue ocean.",
+        "original_hypothesis": "Some is staying afloat and moving in water.",
+        "perturbed_hypothesis": "Ocean currents can influence swimming speed and direction.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A crowd of people in winter garb gather in the street against a backdrop of bare trees and snow.",
+        "original_hypothesis": "A crowd of people gathers in a street n winter time.",
+        "perturbed_hypothesis": "The crowd is awaiting the start of a winter festival.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of young band members wearing black perform on instruments including the saxophone and the trombone.",
+        "original_hypothesis": "A group of musicians playing",
+        "perturbed_hypothesis": "The band's performance incorporates elements of ska music.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young, well-dressed black man seated behind a drum set and smiling.",
+        "original_hypothesis": "a man is smiling",
+        "perturbed_hypothesis": "The man is a professional musician.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person obscured in shadow in a gymnasium.",
+        "original_hypothesis": "The person is hard to see.",
+        "perturbed_hypothesis": "The person is waiting for someone.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person belted into a bungee-jumping ride in midair.",
+        "original_hypothesis": "A person is thrown into the air by a bungee-jumping ride",
+        "perturbed_hypothesis": "The person is experiencing a momentary sense of weightlessness.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Older man wearing dark blue clothing sweeping the ground and a person wearing a red coat and carrying a green bag entering the building.",
+        "original_hypothesis": "An older man is outdoors",
+        "perturbed_hypothesis": "The person in the red coat is visiting someone in the building.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A middle-aged woman with red-hair, a white shirt, and a silver beaded necklace is holding a yellow cellphone against her ear while talking.",
+        "original_hypothesis": "The woman was talking on the phone.",
+        "perturbed_hypothesis": "The woman was posing for a photograph.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is posing on a ski board with snow in the background.",
+        "original_hypothesis": "A man is posing.",
+        "perturbed_hypothesis": "The man is wearing a winter hat.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man shows off his spider-web face paint.",
+        "original_hypothesis": "A person shows some people his face painting.",
+        "perturbed_hypothesis": "The man enjoys artistic expression.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men, one in a red shirt and one in a white shirt, are on a boat in the beautiful blue-green water.",
+        "original_hypothesis": "Some men are by water.",
+        "perturbed_hypothesis": "The boat is powered by an outboard motor.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two adult men in black t-shirt and loud tunics hold smoking torches in preparation for an act of entertainment or celebration in a forested environment.",
+        "original_hypothesis": "Two men hold torches to celebrate",
+        "perturbed_hypothesis": "The men are preparing a fire-based performance.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Three dogs run through the grass while wearing colored shirts.",
+        "original_hypothesis": "There are animals outdoors",
+        "perturbed_hypothesis": "The dogs are running because they were startled by a loud noise.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a pink shirt and white vest plays a guitar.",
+        "original_hypothesis": "There is a man wearing a pink shirt.",
+        "perturbed_hypothesis": "The guitar being played has six strings.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Players from two opposing teams wearing colorful cleats struggle to gain control over a ball on an AstroTurf field.",
+        "original_hypothesis": "They struggle to gain control over a ball.",
+        "perturbed_hypothesis": "The AstroTurf's surface properties affect the players' traction, influencing their ability to maneuver quickly.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man holding a pink cooler is talking to an older woman.",
+        "original_hypothesis": "A man talks to a woman.",
+        "perturbed_hypothesis": "The man is asking the older woman for directions.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Three hikers and a dog are walking through the foliage on the hillside.",
+        "original_hypothesis": "People are outside.",
+        "perturbed_hypothesis": "The dog is a Labrador Retriever.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman with red-hair staples some papers",
+        "original_hypothesis": "The woman is working on papers.",
+        "perturbed_hypothesis": "The woman owns a stapler.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in an Alaska sweatshirt stands behind a counter.",
+        "original_hypothesis": "The person behind the counter is a man.",
+        "perturbed_hypothesis": "The man in the Alaska sweatshirt is selling souvenirs.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "three dogs run through the grass.",
+        "original_hypothesis": "Three dogs run.",
+        "perturbed_hypothesis": "The dogs are chasing a squirrel.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man cycling on road and enjoying.",
+        "original_hypothesis": "A man enjoys his bike.",
+        "perturbed_hypothesis": "The man is commuting to work.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man with beard doing skateboarding stunt",
+        "original_hypothesis": "A man skateboards.",
+        "perturbed_hypothesis": "The skateboarder is wearing protective gear.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man wearing shorts looks at his cellphone while a woman walks outside a small building.",
+        "original_hypothesis": "There are multiple people present.",
+        "perturbed_hypothesis": "The man is waiting for a ride-sharing service.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A ballerina standing on the toes of one food with one arm up in the air and one leg lifted behind her.",
+        "original_hypothesis": "The ballerina's leg is lifted behind her.",
+        "perturbed_hypothesis": "The ballerina is practicing a balancing pose.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a white and gray shirt looks on as a shirtless man with a mustache cleans fish on a pale green table.",
+        "original_hypothesis": "The man watches the other clean a fish.",
+        "perturbed_hypothesis": "The man in the white and gray shirt is waiting for the fish to be cleaned so he can cook them.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man interviews a boy in a gathering of people.",
+        "original_hypothesis": "A man interviews a boy.",
+        "perturbed_hypothesis": "The man is the boy's uncle.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An individual is crouched down on top of rocks underneath a blue sky.",
+        "original_hypothesis": "a person is outside",
+        "perturbed_hypothesis": "The individual is experiencing a moment of contemplation.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A crowd of people shopping at a street market in an urban area with buildings and a statue in background.",
+        "original_hypothesis": "the crowd of people are shopping.",
+        "perturbed_hypothesis": "The street market features local produce and handcrafted goods.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man gets a skateboard up on a big rock.",
+        "original_hypothesis": "The guy is on a rock with a skateboard.",
+        "perturbed_hypothesis": "The man intends to skateboard down the rock.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two dogs are playing together.",
+        "original_hypothesis": "Two canines are having fun.",
+        "perturbed_hypothesis": "Two dogs are interacting.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An adventurous man navigates through the jungle with a long stick.",
+        "original_hypothesis": "There is a person outside.",
+        "perturbed_hypothesis": "The man uses the stick to help him traverse uneven terrain.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man stands by two face structures on Easter Island.",
+        "original_hypothesis": "A man on Easter Island.",
+        "perturbed_hypothesis": "The man is a tourist visiting historical sites.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men and two women in jackets walk down a large city street.",
+        "original_hypothesis": "There are people outside.",
+        "perturbed_hypothesis": "The street they are walking down is lined with shops.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "two women in lingerie with green feathers around waist",
+        "original_hypothesis": "Two women don't wear much clothing.",
+        "perturbed_hypothesis": "The women are participating in a theatrical performance.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman in a gray sweater talking to another woman in a black jacket.",
+        "original_hypothesis": "A lady wearing gray speaks to a lady in black.",
+        "perturbed_hypothesis": "The two women are discussing the upcoming departmental meeting.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A kid with his face painted is at the top of a concrete structure with asterisks carved inside.",
+        "original_hypothesis": "A kid has a painted face.",
+        "perturbed_hypothesis": "The concrete structure was built within the last decade.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Women are working and digging in a field.",
+        "original_hypothesis": "Women are digging.",
+        "perturbed_hypothesis": "The field is being cultivated.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person is surfing a big wave.",
+        "original_hypothesis": " A person is surfing.",
+        "perturbed_hypothesis": "The person is experiencing a strong adrenaline rush.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An olympian leaps over an obstacle.",
+        "original_hypothesis": "An athelete jumps.",
+        "perturbed_hypothesis": "The Olympian trains rigorously.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men in karate gear using fighting sticks.",
+        "original_hypothesis": "two karate men sparring with sticks",
+        "perturbed_hypothesis": "The two men are demonstrating karate techniques involving sticks for a promotional video.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men are assisting a small girl in a harness.",
+        "original_hypothesis": "Two guys help a girl with her harness.",
+        "perturbed_hypothesis": "The girl is learning to climb.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man wearing a jacket is listening to headphones while walking down the sidewalk along a street.",
+        "original_hypothesis": "A man walks down the sidewalk wearing headphones.",
+        "perturbed_hypothesis": "The man is listening to a podcast about urban planning.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of men, women and children are standing around.",
+        "original_hypothesis": "A large group of people are standing around.",
+        "perturbed_hypothesis": "Some of the people standing around are discussing the weather.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of cleaners are sweeping up animal feces from the street during a parade or festival.",
+        "original_hypothesis": "A group of cleaners after a parade.",
+        "perturbed_hypothesis": "The street cleaning crew is on their regular shift.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two females kneeling and a man sting in a chair looking toward a man in robes on an altar.",
+        "original_hypothesis": "People are in a religious setting.",
+        "perturbed_hypothesis": "The individuals are participating in a staged performance.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is installing a roof.",
+        "original_hypothesis": "A man is on top of a building.",
+        "perturbed_hypothesis": "The man is using power tools.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The man in the black t-shirt is trying to throw something.",
+        "original_hypothesis": "The man is in a black shirt.",
+        "perturbed_hypothesis": "The man in the black t-shirt is aiming at a specific target.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Four men stand in a circle facing each other playing brass instruments which people watch them.",
+        "original_hypothesis": "The men are playing music",
+        "perturbed_hypothesis": "The men are holding their instruments in playing position.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman wearing a yellow jacket skis down a snowy hill.",
+        "original_hypothesis": "A woman is outside.",
+        "perturbed_hypothesis": "The woman enjoys winter sports.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A bald man is getting out of a small blue car.",
+        "original_hypothesis": "The man is bald.",
+        "perturbed_hypothesis": "The small blue car is parked on a city street.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is standing in the doorway of a building.",
+        "original_hypothesis": "A man is in a building.",
+        "perturbed_hypothesis": "The man is considering whether to enter or exit the building.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The man in white is playing basketball against the man in blue.",
+        "original_hypothesis": "Two men are engaging in a sporting activity.",
+        "perturbed_hypothesis": "The man in white prefers to play basketball outdoors.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of runners are running towards two identical skyscrapers.",
+        "original_hypothesis": "The runners are running towards the large buildings.",
+        "perturbed_hypothesis": "The runners are preparing for a marathon.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman happy about something.",
+        "original_hypothesis": "A happy woman.",
+        "perturbed_hypothesis": "The woman is holding a bouquet of flowers.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man holds a rope for a boy who's about to climb a wall.",
+        "original_hypothesis": "There is a man holding a rop",
+        "perturbed_hypothesis": "The man is teaching the boy how to tie knots.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Construction worker standing atop an unfinished building.",
+        "original_hypothesis": "The construction worker is standing.",
+        "perturbed_hypothesis": "The construction worker is wearing a safety harness.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Passengers in a rusty yellow car driving down the street.",
+        "original_hypothesis": "A car drives on a street.",
+        "perturbed_hypothesis": "The rusty yellow car is parked outside a bakery.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of people building gingerbread houses.",
+        "original_hypothesis": "More than one person is working on edible buildings.",
+        "perturbed_hypothesis": "The gingerbread houses are being constructed for a holiday competition.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A black dog is digging in the snow.",
+        "original_hypothesis": "A dark colored dog digging through the snow",
+        "perturbed_hypothesis": "The dog is searching for a buried bone.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A crowd gathered on either side of a soap box derby, with a single soap box car on the road track.",
+        "original_hypothesis": "The people are at the race.",
+        "perturbed_hypothesis": "The crowd is awaiting a parade.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two young girls, one wearing a pink jacket and the other in a dark-colored jacket, are playing in the snow and having a snowball fight in a clearing outside of a wooded area.",
+        "original_hypothesis": "Two girls are playing and having a fight on the snow",
+        "perturbed_hypothesis": "The presence of fresh snow suggests recent snowfall in the area.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men wearing dirty clothing are sitting on a sidewalk with their dog and begging for money using a cardboard sign.",
+        "original_hypothesis": "Two men sit outdoors in an urban area.",
+        "perturbed_hypothesis": "The dog is a mixed breed.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is painting a picture outside behind a crowd.",
+        "original_hypothesis": "A painter is creating a picture.",
+        "perturbed_hypothesis": "The man is painting a landscape.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A skateboard is grinding on a curb with his skateboard.",
+        "original_hypothesis": "The skateboard is grinding.",
+        "perturbed_hypothesis": "The skateboarder is attempting a boardslide.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two young girls are jumping off of a steep step.",
+        "original_hypothesis": "Two young girls are jumping outside.",
+        "perturbed_hypothesis": "Two young girls are wearing matching outfits.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in bright shirt carrying a fallen branch.",
+        "original_hypothesis": "There is one man in this picture, and he is outside.",
+        "perturbed_hypothesis": "The man is returning the branch to the tree from which it fell.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A boy pushing a girl on a toy SUV.",
+        "original_hypothesis": "A boy and a girl are playing.",
+        "perturbed_hypothesis": "The toy SUV has functional steering.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a jean jacket is reaching into a bag and walking past two women.",
+        "original_hypothesis": "man walks past women",
+        "perturbed_hypothesis": "The man is looking for his keys in the bag.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in an army uniform meeting someone foreign.",
+        "original_hypothesis": "A man in an army uniform is meeting someone.",
+        "perturbed_hypothesis": "The man in the army uniform is stationed overseas.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Children play in the sand surrounded by a sand structure with a lot of window like openings.",
+        "original_hypothesis": "The children are playing in the sand.",
+        "perturbed_hypothesis": "The children are pretending the sand structure is a castle.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "People ordering and picking up food at a restaurant window.",
+        "original_hypothesis": "There are people who are about to eat.",
+        "perturbed_hypothesis": "The restaurant offers both dine-in and takeout options.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "City street crowded with sports fans wearing orange.",
+        "original_hypothesis": "The sports fans are wearing orange shirts.",
+        "perturbed_hypothesis": "The city is hosting a festival featuring the color orange.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Men at a party hanging out on the front porch.",
+        "original_hypothesis": "There are men at the party.",
+        "perturbed_hypothesis": "The party has outdoor space.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "One woman taking a picture of a second woman as she leans on a table.",
+        "original_hypothesis": "Women taking pictures of each other.",
+        "perturbed_hypothesis": "The woman leaning on the table is being photographed for a social media post.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young white girl is standing on the street in front of a storefront, dressed up in red with a hoop decorated with card symbols.",
+        "original_hypothesis": "The young white girl is outdoors.",
+        "perturbed_hypothesis": "The young white girl is waiting for someone.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The boy in pajama pants jumps off the sofa.",
+        "original_hypothesis": "The boy is jumping up",
+        "perturbed_hypothesis": "The boy lands on the carpet.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man and woman eating a hotdog.",
+        "original_hypothesis": "A man and woman are sharing a hotdog.",
+        "perturbed_hypothesis": "The man and woman each ordered a hotdog.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman with a white blanket over her head is holding a baby wrapped in a blue, pink, and yellow blanket.",
+        "original_hypothesis": "The blanket is white.",
+        "perturbed_hypothesis": "The woman is the baby's mother.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Walkers on a concrete boardwalk under a blue sky.",
+        "original_hypothesis": "walkers under a blue sky",
+        "perturbed_hypothesis": "Walkers are enjoying the ocean breeze.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two boys in front of a soda machine.",
+        "original_hypothesis": "Two boys are at a machine.",
+        "perturbed_hypothesis": "The boys are discussing what snacks to buy.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A homeless man pushes an overfilled plastic blue shopping cart.",
+        "original_hypothesis": "A man has a shopping cart",
+        "perturbed_hypothesis": "The man is transporting personal belongings.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.",
+        "original_hypothesis": "There are two little boys smiling.",
+        "perturbed_hypothesis": "The bouncy seat is brightly colored.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman doing gymnastics, she is using the balance beam",
+        "original_hypothesis": "A woman is using gymnastics equipment.",
+        "perturbed_hypothesis": "The woman is attempting a difficult maneuver.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two casually-dressed men, one in a cowboy hat and one in a baseball cap, make their way through a crowd.",
+        "original_hypothesis": "There is crowd.",
+        "perturbed_hypothesis": "The two men are going to a sporting event.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man sits at the doorway of barber shop.",
+        "original_hypothesis": "a man is seated",
+        "perturbed_hypothesis": "The barber shop is open.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two green painted women perform for a crowd of onlookers.",
+        "original_hypothesis": "People are nearby.",
+        "perturbed_hypothesis": "The performers are using non-toxic body paint.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "At a table with an art camp pamphlet on it, a young woman and an older man are painting ceramics under the supervision of a blond woman wearing a name tag.",
+        "original_hypothesis": "Two people are painting ceramics",
+        "perturbed_hypothesis": "The art camp offers a variety of craft activities besides ceramics.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An older, barefoot boy is talking to a younger, shirtless boy in flip flips in the middle of the street.",
+        "original_hypothesis": "Two boys are talking in the middle of a street.",
+        "perturbed_hypothesis": "The boys are discussing where to find the best mangoes in the neighborhood.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of friends are sitting at a table while drinking alcohol at their local pub.",
+        "original_hypothesis": "a group of friends are sitting",
+        "perturbed_hypothesis": "The friends are discussing a recent sporting event.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two young boys playing with ducks near the water.",
+        "original_hypothesis": "Young kids play with animals",
+        "perturbed_hypothesis": "The boys live near a body of water.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman in a gray sweatshirt is sitting on the floor with her small dog that is wrapped in a blanket.",
+        "original_hypothesis": "The woman is near her dog.",
+        "perturbed_hypothesis": "The woman is comforting her dog.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is in front of a dryer in a laundromat with both hands reaching into a bin or basket.",
+        "original_hypothesis": "A man reaches into his laundry basket at the laundromat",
+        "perturbed_hypothesis": "The man is looking for a lost item in a lost-and-found bin.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young blond child wearing a black shirt and white shorts looks at the sky with a bridge and water in the background.",
+        "original_hypothesis": "A child looks at the sky outside.",
+        "perturbed_hypothesis": "The child is contemplating the pigeons perched on the bridge railing.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The young Asian woman is using an umbrella, and is in front of a brightly colored patch of flowers in the back.",
+        "original_hypothesis": "A woman is using an umbrella.",
+        "perturbed_hypothesis": "The woman is admiring the flowers.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man wearing a gray tank top is collecting a red rose from a woman who is wearing a white dress",
+        "original_hypothesis": "A couple interacts.",
+        "perturbed_hypothesis": "The man is receiving a flower for participating in a community theater production.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of women observing an event while one in military attire takes a photograph",
+        "original_hypothesis": "A group of people are watching something and one takes a picture.",
+        "perturbed_hypothesis": "The women are attending a family reunion.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Several men in black t-shirts and caps are using with metal rods to smash food that's lying on a round table with a hole in the center.",
+        "original_hypothesis": "men using metal rods",
+        "perturbed_hypothesis": "The table was used for a previous, unrelated activity involving hammering and the food was accidentally placed there afterward.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman sweeping in front of a ladder on a busy street.",
+        "original_hypothesis": "A woman cleans up near a ladder",
+        "perturbed_hypothesis": "The woman is waiting for a bus near some scaffolding.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is riding a bike along a dirt trail.",
+        "original_hypothesis": "The man is bike riding.",
+        "perturbed_hypothesis": "The man enjoys outdoor activities.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The young Asian woman is using an umbrella, and is in front of a brightly colored patch of flowers in the back.",
+        "original_hypothesis": "A woman is using a large umbrella.",
+        "perturbed_hypothesis": "The woman is shielding herself from the sun.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A rocker standing with one foot on the stage holding the microphone attached to the stand over his head.",
+        "original_hypothesis": "A microphone is near the stage.",
+        "perturbed_hypothesis": "The rocker is performing a popular song.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a white shirt and baseball hat is pushing a cart carrying several bags on a street.",
+        "original_hypothesis": "A man is walking outside.",
+        "perturbed_hypothesis": "The man is transporting groceries.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Girls giving a presentation for a school class.",
+        "original_hypothesis": "The girls are inside a school.",
+        "perturbed_hypothesis": "The girls are using visual aids.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A lady in the kitchen cleaning her feet on a chopping board with a red towel, or red apron, with her husband standing there.",
+        "original_hypothesis": "A lady in the kitchen cleans her feet.",
+        "perturbed_hypothesis": "The couple is preparing to make a dish that requires bare feet for some part of the process.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man with a white beard speaks into a microphone wearing a long-sleeved gray button down shirt.",
+        "original_hypothesis": "A man is speaking to a crowd.",
+        "perturbed_hypothesis": "The man is recording a podcast.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two little boys are standing in a kitchen.",
+        "original_hypothesis": "The kitchen is not empty.",
+        "perturbed_hypothesis": "The kitchen has a refrigerator.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A fireman searching for something using a flashlight.",
+        "original_hypothesis": "An area is lit up by flashlight.",
+        "perturbed_hypothesis": "The fireman is searching for a lost pet.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A girl in a costume is performing a dance as other girls in costumes watch.",
+        "original_hypothesis": "A girl is dancing.",
+        "perturbed_hypothesis": "The costumes are for a school play.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Three men, who appear to be Asian, are conversing near a carved wall, while another man sits on a bench with his eyes closed.",
+        "original_hypothesis": "A group of men talking.",
+        "perturbed_hypothesis": "The man sitting on the bench is meditating.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man running in a race passes by spectators.",
+        "original_hypothesis": "A man is running by people who are watching.",
+        "perturbed_hypothesis": "The man experiences a surge of adrenaline as he runs.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A bundled up toddler is walking over snow.",
+        "original_hypothesis": "A toddler is outside.",
+        "perturbed_hypothesis": "The toddler is wearing warm boots.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Men wearing painted clothes are standing in the rain.",
+        "original_hypothesis": "Men are getting wet with the rain.",
+        "perturbed_hypothesis": "The paint on the men's clothes is running.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person is riding their motorbike and a person in a bright yellow jacket is watching someone fall off their bike.",
+        "original_hypothesis": "A person fell off their bike.",
+        "perturbed_hypothesis": "The person in the bright yellow jacket is a trained first aid responder.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two women wearing ballerina attire are conversing with one another.",
+        "original_hypothesis": "Two woman are talking.",
+        "perturbed_hypothesis": "They are discussing an upcoming ballet performance.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two people walk up to a brick building with a colorful mural on its side.",
+        "original_hypothesis": "Two people walking toward a brick building with their mural on its side.",
+        "perturbed_hypothesis": "Two people are discussing the artistic merits of the mural.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man sleeping in a couch in a sitting position wearing a blue jeans and a plaided shirt",
+        "original_hypothesis": "There is someone sleeping on the couch.",
+        "perturbed_hypothesis": "The couch is comfortable.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman in a scarf, laughing, being licked by a dog.",
+        "original_hypothesis": "A woman and a dog enjoy time together",
+        "perturbed_hypothesis": "The woman is wearing a wool scarf.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A dark-skinned person, crouched while painting a sign.",
+        "original_hypothesis": "A person is painting.",
+        "perturbed_hypothesis": "The person is taking a break from gardening.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A lone person is walking in front of a white building.",
+        "original_hypothesis": "A single human is outside in front of a building.",
+        "perturbed_hypothesis": "The white building is used for commercial purposes.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A female in the middle of a vehicle is holding a camera and is pointing it towards the backseat.",
+        "original_hypothesis": "A girl is inside a vehicle.",
+        "perturbed_hypothesis": "The female is recording a video blog about car interiors.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A blond-haired baby is sitting on the floor playing with toys while looking at a black and white cat.",
+        "original_hypothesis": "The baby and the cat are in the same room",
+        "perturbed_hypothesis": "The baby enjoys playing with brightly colored toys.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "People, mainly women and 2 referees, are skating fiercely during a roller derby match.",
+        "original_hypothesis": "There is a roller derby match involving women.",
+        "perturbed_hypothesis": "The roller skates used in the match are predominantly quad skates, not inline skates.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A dog with a ball in his mouth running down a road covered in leaves.",
+        "original_hypothesis": "A dog running down a leaf covered road carrying a ball in it's mouth",
+        "perturbed_hypothesis": "The dog is fetching the ball for its owner who is nearby but out of sight.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two rescue guys looking at a guy on a stretcher",
+        "original_hypothesis": "A man on a stretcher.",
+        "perturbed_hypothesis": "The man on the stretcher may require medical transport.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A boy in a red jacket and balck hat sliding on his knees down a snowy hill",
+        "original_hypothesis": "A child is playing outside.",
+        "perturbed_hypothesis": "The boy is wearing new winter clothes.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young boy vocalizes in to a microphone held by a blond woman in black.",
+        "original_hypothesis": "A boy singing.",
+        "perturbed_hypothesis": "The woman is recording audio.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A white greyhound dog wearing a muzzle runs around a track.",
+        "original_hypothesis": "The dog is running.",
+        "perturbed_hypothesis": "The dog is being trained for racing.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "This woman is setting out a vegetable collection for sale in the market.",
+        "original_hypothesis": "A woman in her vegetable market.",
+        "perturbed_hypothesis": "This woman grows her own vegetables.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A brown-haired woman in a blue shirt decorated with gold trimmings paints a picture of two windows.",
+        "original_hypothesis": "A brunette lady wearing a blue shirts is painting the two windows she sees.",
+        "perturbed_hypothesis": "The woman is using a new set of oil paints.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of Asian men are sitting or standing around a small square table.",
+        "original_hypothesis": "Some men are gathered around a table.",
+        "perturbed_hypothesis": "The table is made of wood.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A crowd of people at a county fair watch three men agitate a large bull.",
+        "original_hypothesis": "Three men bother a bull as people watch.",
+        "perturbed_hypothesis": "The county fair features agricultural demonstrations, including livestock exhibitions.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a plaid shirt looking through a telescope lens.",
+        "original_hypothesis": "a man is looking through a telescope",
+        "perturbed_hypothesis": "The man is examining a large magnifying glass.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A little baby wearing a blue outfit is grabbing some fruit.",
+        "original_hypothesis": "A little baby is wearing blue.",
+        "perturbed_hypothesis": "The baby prefers brightly colored toys.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person is on a four wheeler kicking up a lot of dirt in a dune.",
+        "original_hypothesis": "The person is riding a four wheeler.",
+        "perturbed_hypothesis": "The person enjoys outdoor recreational activities.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two young ladies walking down the street together.",
+        "original_hypothesis": "There are two woman in this picture, and they are both outside.",
+        "perturbed_hypothesis": "They are discussing where to have lunch.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A blond little boy in an orange sweatshirt with red sleeves is using scissors to cut something.",
+        "original_hypothesis": "A little male has clothes on with a pair of scissors in his hands.",
+        "perturbed_hypothesis": "The child is cutting construction paper.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A couple has been photographed through a gap in the fence while they are sitting near the water.",
+        "original_hypothesis": "The couple is sitting near water.",
+        "perturbed_hypothesis": "The couple values their privacy.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man wearing a jacket is listening to headphones while walking down the sidewalk along a street.",
+        "original_hypothesis": "A man walks down the sidewalk listening to music through headphones.",
+        "perturbed_hypothesis": "The man is walking to a nearby appointment.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man seated in a uniform that says \"Polizes\" on the shoulder looking out a window with a clipboard, some papers, and a computer in front of him.",
+        "original_hypothesis": "A man is wearing a uniform.",
+        "perturbed_hypothesis": "The man is documenting observations related to a case.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A girl sits at a table in front of a plate of food.",
+        "original_hypothesis": "The girl is near food.",
+        "perturbed_hypothesis": "The girl is deciding what to eat first.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman wearing a ball cap squats down to touch the cracked earth.",
+        "original_hypothesis": "A squatting woman wearing a hat touching the ground.",
+        "perturbed_hypothesis": "The woman is inspecting the soil for dryness.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young girl in glasses observes something in the distance.",
+        "original_hypothesis": "A person is looking at something from afar.",
+        "perturbed_hypothesis": "The young girl is considering what to draw in her sketchbook.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of people are walking down a busy street.",
+        "original_hypothesis": "There are people walking.",
+        "perturbed_hypothesis": "The group is headed to a nearby restaurant.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Someone with a long pole that appears to have a spike on the end is pointing it at a red balloon on the other side of the wall from him.",
+        "original_hypothesis": "A person with a long object stands on one side of a wall and a balloon floats on the other side.",
+        "perturbed_hypothesis": "The person is using the pole to lift a banner with a design of a similar red balloon.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two dogs are playing catch in a field.",
+        "original_hypothesis": "The two dogs are outside.",
+        "perturbed_hypothesis": "The two dogs are retrieving a frisbee.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Rider in ceremonial garb rides white Arabian horse, also wearing ceremonial blankets and tassels.",
+        "original_hypothesis": "A traditionally dressed horse and rider at a parade.",
+        "perturbed_hypothesis": "The rider and horse are being photographed for a historical reenactment.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
+        "original_hypothesis": "The woman is very happy.",
+        "perturbed_hypothesis": "The woman is actively engaging her facial muscles.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Workers at Basking Robbins are filling orders.",
+        "original_hypothesis": "Workers busy in handling orders",
+        "perturbed_hypothesis": "Workers at Baskin Robbins are wearing their uniforms.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Children are playing and swimming in a boy of water with a footbridge in the background.",
+        "original_hypothesis": "Children are swimming.",
+        "perturbed_hypothesis": "The footbridge is made of wood.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman in a brown jacket and jeans is kneeling on a brick road while taking a picture of another woman posing.",
+        "original_hypothesis": "The woman is outside.",
+        "perturbed_hypothesis": "The woman taking the picture is using a digital camera.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A black man in a knitted, blue cap and green, collared shirt sit next to a stump slicing a coconut.",
+        "original_hypothesis": "A man slicing coconut next to a stump.",
+        "perturbed_hypothesis": "The stump shows signs of previous use for similar food preparation.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A boy jumps on the beach.",
+        "original_hypothesis": "A boy jumps in the air.",
+        "perturbed_hypothesis": "The boy enjoys playing near the ocean.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man in a gray sweatshirt using a power saw.",
+        "original_hypothesis": "the guy in the sweatshirt uses the power saw",
+        "perturbed_hypothesis": "The man in the gray sweatshirt may be building a birdhouse.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A tractor decorated as a float for a parade",
+        "original_hypothesis": "a tractor is decorated for a parade",
+        "perturbed_hypothesis": "The tractor has recently undergone maintenance.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is sitting on the floor, sleeping.",
+        "original_hypothesis": "A man is sleeping on the floor.",
+        "perturbed_hypothesis": "The man awoke earlier than usual.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of young adults wait in line outdoors in the daytime.",
+        "original_hypothesis": "A group of people wait in a line.",
+        "perturbed_hypothesis": "The young adults are waiting to purchase tickets to a concert.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Children receiving places at an award ceremony.",
+        "original_hypothesis": "An award ceremony is occurring.",
+        "perturbed_hypothesis": "Children receiving awards increases their motivation in school.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A tattooed woman clicking on a mouse on a desk.",
+        "original_hypothesis": "A woman clicking on a mouse on a desk.",
+        "perturbed_hypothesis": "The woman is working on a graphic design project.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A female softball player in a black and red uniform with a red batting helmet is holding her bat waiting for the pitch.",
+        "original_hypothesis": "A person in a uniform",
+        "perturbed_hypothesis": "The softball player is anticipating a curveball.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young boy attempts to push the Walmart shopping cart for a man.",
+        "original_hypothesis": "a biy pushing a shopping cart.",
+        "perturbed_hypothesis": "The young boy wants to help.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A small child dressed for winter stares across a lake while leaning on a mesh fence in a scenic park setting.",
+        "original_hypothesis": "A small child dressed for winter stares across a floating lake while leaning on a mesh fence",
+        "perturbed_hypothesis": "The child is contemplating feeding the ducks that may be present at the lake's edge.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The man is trying to make a pottery that he can market soon.",
+        "original_hypothesis": "An old man is making pottery to sell.",
+        "perturbed_hypothesis": "The man is experimenting with new pottery glazing techniques.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two dogs are digging under a large rock with their bottoms to the camera.",
+        "original_hypothesis": "Two dogs are digging under a rock.",
+        "perturbed_hypothesis": "The dogs are searching for a buried bone.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A naked man rides a bike.",
+        "original_hypothesis": "A person biking.",
+        "perturbed_hypothesis": "The bike has two wheels.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person in sunglasses, a scarf, a shirt, and jeans is walking outside.",
+        "original_hypothesis": "A person standing",
+        "perturbed_hypothesis": "The person is listening to music.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A very dirty race car doing a burnout on some dirt.",
+        "original_hypothesis": "A car does a burn out.",
+        "perturbed_hypothesis": "The race car's tires are heated due to friction.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "a green and white trolley car with an advertisement of coffee on the side and front of it in a city.",
+        "original_hypothesis": "A trolley making it's way through a city.",
+        "perturbed_hypothesis": "Public transportation usage in this city is influenced by seasonal tourism.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Artist on street corner selling his artwork.",
+        "original_hypothesis": "Someone is selling artwork.",
+        "perturbed_hypothesis": "The artist hopes to make enough money to buy new art supplies.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A teen is standing in a field and is in the upswing position after hitting a golf ball.",
+        "original_hypothesis": "There is a teenager playing golf in a field.",
+        "perturbed_hypothesis": "The teen is practicing their golf swing.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A brown dog runs through a grassy field",
+        "original_hypothesis": "A brown dog runs outside.",
+        "perturbed_hypothesis": "The dog enjoys chasing squirrels.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A brown dog and black and white dog run along the green grass.",
+        "original_hypothesis": "Two dogs run in the grass.",
+        "perturbed_hypothesis": "The dogs are running for exercise.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Four women carrying shoulder bags are walking down a city sidewalk.",
+        "original_hypothesis": "Four women are walking in the city.",
+        "perturbed_hypothesis": "The women are window shopping.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "a brown and black attack dog being trained by a man holding a stick",
+        "original_hypothesis": "A dog is being trained by a man.",
+        "perturbed_hypothesis": "The dog may be learning to retrieve the stick.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two people walking outside in the woods in the winter time wearing jackets with hoods on them.",
+        "original_hypothesis": "Two people are going for a stroll in the woods.",
+        "perturbed_hypothesis": "Two people are searching for a lost pet.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two dancers in pink tops and striped capri bottoms perform on stage barefoot.",
+        "original_hypothesis": "Dancers are performing on stage barefoot.",
+        "perturbed_hypothesis": "The dancers' choreography incorporates elements of modern and ballet dance styles.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two women walking near some trees in warm, dark-colored garments, one with a hat, one with an upraised collar.",
+        "original_hypothesis": "two women walk",
+        "perturbed_hypothesis": "The women are birdwatchers observing migratory species in the late afternoon.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men in orange uniforms stand before a train and do some work.",
+        "original_hypothesis": "Humans working.",
+        "perturbed_hypothesis": "The train is undergoing maintenance.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Men play hockey.",
+        "original_hypothesis": "Men play",
+        "perturbed_hypothesis": "Men participate in competitive sports.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "there are 5 people on a stage without their face showing behind a red curtain",
+        "original_hypothesis": "People are standing on stage.",
+        "perturbed_hypothesis": "The curtain is made of velvet.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman in a red jacket walks down the street in the rain.",
+        "original_hypothesis": "Women walks through the rain",
+        "perturbed_hypothesis": "The woman is going to meet a friend for coffee.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men riding a boat in clear water on a sunny day.",
+        "original_hypothesis": "A couple people are doing activities on a nice day in a boat.",
+        "perturbed_hypothesis": "The boat is powered by an outboard motor.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is wearing a neon yellow vest while leaning over a roof and another man is standing behind him.",
+        "original_hypothesis": "A guy is looking over the side of a building with someone else.",
+        "perturbed_hypothesis": "The men are inspecting the roof for damage.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "a mass of people looking and moving in the same general direction.",
+        "original_hypothesis": "A mass of people moving the same way.",
+        "perturbed_hypothesis": "The individuals are attending an event with assigned seating.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman is petting a dog outside.",
+        "original_hypothesis": "A person and an animal are interacting out of doors.",
+        "perturbed_hypothesis": "The dog is a golden retriever.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man has wrecked his racing bike in the dirt with five spectators behind a rope.",
+        "original_hypothesis": "A man has damaged something.",
+        "perturbed_hypothesis": "The man was practicing a controlled slide.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two women are tending to their herd of animals including cows and goats near a building made primarily of stone.",
+        "original_hypothesis": "The two women are taking care of a herd of animals",
+        "perturbed_hypothesis": "The stone building is used for storing animal feed.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A little boy wearing a yellow, white and black striped shirt is whispering a secret to a little girl wearing a white long sleeved-shirt.",
+        "original_hypothesis": "A little boy is whispering to a girl.",
+        "perturbed_hypothesis": "The children are playing a game that involves quiet communication.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A girl is about to hit a tennis ball coming from above her with a racket",
+        "original_hypothesis": "A girl is playing tennis.",
+        "perturbed_hypothesis": "The girl is practicing her tennis swing.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "children are sitting in chairs with a music stand in the background.",
+        "original_hypothesis": "There is a group of people sitting.",
+        "perturbed_hypothesis": "The children are preparing for a musical performance.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A boy in the woods.",
+        "original_hypothesis": "There is a small boy in the woods.",
+        "perturbed_hypothesis": "The boy in the woods is foraging for edible plants.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of soldiers march in a parade.",
+        "original_hypothesis": "A group of people march in a parade.",
+        "perturbed_hypothesis": "The parade includes musical performances.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young man at a bowling alley posing on the scoring machine.",
+        "original_hypothesis": "A young man is at the bowling alley.",
+        "perturbed_hypothesis": "The young man is celebrating a high score.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The two boys are swimming with boogie boards.",
+        "original_hypothesis": "The two boys are swimming with their floats",
+        "perturbed_hypothesis": "The two boys are enjoying the waves.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person in a green robe sits on a couch with a blanket.",
+        "original_hypothesis": "A person in a robe sits on a couch",
+        "perturbed_hypothesis": "The person on the couch is reading a book.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A little girl in a colorful shirt holding a flower.",
+        "original_hypothesis": "The girl is holding a flower",
+        "perturbed_hypothesis": "The girl enjoys spending time outdoors.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A blond woman in a blue shirt looks on at an event.",
+        "original_hypothesis": "The woman is wearing a blue shirt.",
+        "perturbed_hypothesis": "The woman is attending a sporting event.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "People are shopping around Christmas time for decorations.",
+        "original_hypothesis": "People are buying things.",
+        "perturbed_hypothesis": "People are experiencing increased social interaction.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two young children, one wearing a red striped shirt, are looking in through the window while an adult in a pink shirt watches from behind.",
+        "original_hypothesis": "A person in a shirt",
+        "perturbed_hypothesis": "The children are observing something interesting inside.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A child rides a bicycle in a sunny neighborhood.",
+        "original_hypothesis": "a child is riding his bike",
+        "perturbed_hypothesis": "The child is enjoying outdoor play.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A barber in a sports themed barber shop waits for his next customer to arrive.",
+        "original_hypothesis": "A barber waits for business.",
+        "perturbed_hypothesis": "The barber is considering changing the shop's decor.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is standing on his tip toes in front of two people sitting in the car.",
+        "original_hypothesis": "A man stands on his tip toes in front of two people.",
+        "perturbed_hypothesis": "The man is asking the two people in the car for directions.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Person with umbrella observes flooded streets with cars in the water.",
+        "original_hypothesis": "A person is standing outside in the rain looking at flood damage.",
+        "perturbed_hypothesis": "The person is waiting for a ride-sharing service near a drainage ditch that often overflows after heavy rain.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A girl wearing a knit cap, gloves, winter jacket, snow pants and boots stands by a frozen waterfall, with a metal pole by her side.",
+        "original_hypothesis": "A young girl is by a waterfall.",
+        "perturbed_hypothesis": "The metal pole is used for ice climbing.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A boy in a yellow t-shirt and pink sweater talks on a cellphone while riding a horse through a crowd of people who are looking on.",
+        "original_hypothesis": "A boy has a yellow t-shirt and pink sweater.",
+        "perturbed_hypothesis": "The horse is a popular attraction.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Little boy in a green sweatshirt playing with his toy train.",
+        "original_hypothesis": "A boy is playing with toys.",
+        "perturbed_hypothesis": "The little boy enjoys imaginative play.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Several women are playing volleyball.",
+        "original_hypothesis": "They women are hitting a ball with their arms",
+        "perturbed_hypothesis": "The women are part of a competitive league.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of cyclists at a race with their arms around each other.",
+        "original_hypothesis": "A group of cyclists racing.",
+        "perturbed_hypothesis": "The cyclists are demonstrating camaraderie.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man, woman, and child get their picture taken in front of the mountains.",
+        "original_hypothesis": "A family on vacation is posing.",
+        "perturbed_hypothesis": "The three individuals are participating in a photography project.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An accordion player with a bright colored shirt sitting outside in a chair with a young man in a blue t-shirt passing by.",
+        "original_hypothesis": "A young man is walking.",
+        "perturbed_hypothesis": "The accordion player knows a polka.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two people wearing green raincoats sit in blue bleachers that are otherwise empty.",
+        "original_hypothesis": "Two people sit on bleachers",
+        "perturbed_hypothesis": "The blue bleachers were recently repainted.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Woman reading a book with a grocery tote.",
+        "original_hypothesis": "A woman is holding a book.",
+        "perturbed_hypothesis": "The woman plans to cook a new recipe.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "a woman walking down the street.",
+        "original_hypothesis": "A lady is walking down a street.",
+        "perturbed_hypothesis": "The woman is considering buying a new car.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A little boy with an orange backpack walks under a tree through the woods.",
+        "original_hypothesis": "A boy walks through the woods.",
+        "perturbed_hypothesis": "Squirrels live in the tree.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "man in blue shirt sitting on the side of the road with a wheelbarrow of vegetables",
+        "original_hypothesis": "A man sitting next to a wheelbarrow full of produce.",
+        "perturbed_hypothesis": "The man is waiting for a bus.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young boy sits outside in a grassy field with his back turned towards the viewer- he is holding a wooden toy that can be spun between your hands and launched into the air.",
+        "original_hypothesis": "A child plays outdoors.",
+        "perturbed_hypothesis": "The boy is contemplating whether to launch the toy.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two basketball players on opposing teams, one in white, the other in red, are mid-game, running down the court, white-uniform player with ball-in-hand.",
+        "original_hypothesis": "A group of people are playing basketball.",
+        "perturbed_hypothesis": "The white-uniform player is dribbling the basketball.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A small child is riding in a red wagon.",
+        "original_hypothesis": "A kid is in a wagon.",
+        "perturbed_hypothesis": "The wagon is being pulled by a dog.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Bubbles surround a statue in the middle of a street.",
+        "original_hypothesis": "There are bubbles around the statue.",
+        "perturbed_hypothesis": "Street performers are creating bubbles near the statue.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A girl playing a violin along with a group of people",
+        "original_hypothesis": "A girl is playing an instrument.",
+        "perturbed_hypothesis": "The girl is learning a new piece of music.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young woman cooks a meal in a wok while conversing with another woman, as an illuminated shrine to Mr. T looks on.",
+        "original_hypothesis": "A young woman stands near a stove.",
+        "perturbed_hypothesis": "The young woman enjoys Asian cuisine.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A bald man with a white shirt and watch eating food and drinking wine.",
+        "original_hypothesis": "There is a bald man.",
+        "perturbed_hypothesis": "The man is celebrating a special occasion.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is walking in the street.",
+        "original_hypothesis": "A man is walking outside.",
+        "perturbed_hypothesis": "The man is wearing a hat.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "The man is sweeping with a red broom.",
+        "original_hypothesis": "The man is sweeping dirt",
+        "perturbed_hypothesis": "The man is sweeping his porch.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Several women are playing volleyball.",
+        "original_hypothesis": "This doesn't look like soccer",
+        "perturbed_hypothesis": "They might be practicing for a tournament.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A boy in a blue jacket rides a skateboard down the street.",
+        "original_hypothesis": "A blue jacketed boy is skating down the street.",
+        "perturbed_hypothesis": "The boy is wearing protective gear.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man is outdoors looking directly at the camera, and in front of him is a yellow flower.",
+        "original_hypothesis": "The man stands before the camera outside.",
+        "perturbed_hypothesis": "The man appreciates the color yellow.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A white and a black dog fighting in a fenced in room.",
+        "original_hypothesis": "The dogs are fighting.",
+        "perturbed_hypothesis": "The dogs are playing.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two guys on a couch, one is looking up the other is looking away with a cup in his hand.",
+        "original_hypothesis": "They are not looking in the same direction.",
+        "perturbed_hypothesis": "They are discussing a shared memory.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A half dressed man is sleeping on the sidewalk.",
+        "original_hypothesis": "A man is asleep",
+        "perturbed_hypothesis": "The man missed his bus stop.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A swimmer is performing the breaststroke in an indoor swimming pool set up for a competition.",
+        "original_hypothesis": "A swimmer is swimming",
+        "perturbed_hypothesis": "The swimmer is experiencing muscle fatigue in their legs.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An elderly woman in a white jacket walking past a brick wall using a cain to support herself.",
+        "original_hypothesis": "A woman is walking past a brick wall.",
+        "perturbed_hypothesis": "The brick wall was recently repointed.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two girls kissing a man with a black shirt and brown hair on the cheeks.",
+        "original_hypothesis": "Two girls kiss a man.",
+        "perturbed_hypothesis": "The man with brown hair is outdoors.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two men watching one man make a golf putt on the set of Sports Center.",
+        "original_hypothesis": "There are people in a sports center.",
+        "perturbed_hypothesis": "The man putting is a professional golfer practicing his short game.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Little kids play a game of running around a pole.",
+        "original_hypothesis": "There are kids outside playing",
+        "perturbed_hypothesis": "The pole they run around is brightly colored.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A golden retriever nurses puppies.",
+        "original_hypothesis": "Puppies next to their mother",
+        "perturbed_hypothesis": "The golden retriever recently gave birth.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A black dog is running through a marsh-like area.",
+        "original_hypothesis": "A dog is running through a marshy area.",
+        "perturbed_hypothesis": "The dog is chasing a bird.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man pushing a hand-truck of boxes is bending over to pick up a pear.",
+        "original_hypothesis": "A happy man is picking up a pear.",
+        "perturbed_hypothesis": "The man is picking up a dropped pear.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A golden dog passes a blue ball to another golden dog on the beach.",
+        "original_hypothesis": "The golden dog is playing ball with another dog outside.",
+        "perturbed_hypothesis": "Golden retrievers are a popular breed for families with children.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A group of people are camping out on some rocks.",
+        "original_hypothesis": "People are outdoors.",
+        "perturbed_hypothesis": "They are observing geological formations.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Three people are standing on a lit stage while groups of people sitting at tables face them.",
+        "original_hypothesis": "There is a group of people present.",
+        "perturbed_hypothesis": "The three people on stage are rehearsing a play.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A man wearing a black jacket stands next to a body of water.",
+        "original_hypothesis": "A person is outside near some water.",
+        "perturbed_hypothesis": "The man is waiting for a ferry.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A person in a ken-do outfit is standing there waiting.",
+        "original_hypothesis": "A human standing.",
+        "perturbed_hypothesis": "The person is waiting for a kendo class to begin.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A choir practicing in a church.",
+        "original_hypothesis": "A group of singers sings.",
+        "perturbed_hypothesis": "The church has good acoustics.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "lady in black skirt is getting excited.",
+        "original_hypothesis": "A lady is excited.",
+        "perturbed_hypothesis": "The lady in the black skirt is reacting to a surprising event.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A male performer sings and plays the guitar in front of a microphone.",
+        "original_hypothesis": "A man is singing a song.",
+        "perturbed_hypothesis": "The performer is using a condenser microphone.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Two young girls looking very concerned.",
+        "original_hypothesis": "Their faces convey their feelings.",
+        "perturbed_hypothesis": "They are waiting for their mother to return.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A boy and a girl stand in a median amongst Mike Huckabee signs.",
+        "original_hypothesis": "Two people stand on a median with advertising signs.",
+        "perturbed_hypothesis": "The median experiences significant traffic flow during rush hour.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Six people appearing to be planting something in the ground.",
+        "original_hypothesis": "People are digging up the earth",
+        "perturbed_hypothesis": "The people are burying a time capsule.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A woman wearing sunglasses is frowning.",
+        "original_hypothesis": "A woman wearing sunglasses is not smiling.",
+        "perturbed_hypothesis": "The woman wearing sunglasses is experiencing eye strain.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "A young smiling girl is holding a stuffed animal in one hand and a candy apple in the other.",
+        "original_hypothesis": "A young smiling girl is holding a stuffed animal in one hand",
+        "perturbed_hypothesis": "The young girl enjoys sweet treats.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "An older man is riding a bike with a blue laundry hamper full of clothes on his handlebars.",
+        "original_hypothesis": "A man is on his bike with a laundry hamper.",
+        "perturbed_hypothesis": "He is delivering clean laundry to a neighbor.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Man with plaid shirt staring off into the distance.",
+        "original_hypothesis": "Man staring off into the distance.",
+        "perturbed_hypothesis": "The man is contemplating his next meal.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Five young blond and light brown-haired girls are sitting on the ground reading books together.",
+        "original_hypothesis": "A group of kids reading",
+        "perturbed_hypothesis": "The girls are taking a break from playing at a nearby park.",
+        "original_label": "entailment",
+        "new_label": "neutral"
+    },
+    {
+        "premise": "Many people on the beach holding a very large net.",
+        "original_hypothesis": "There are many people in this picture, and they are all outside.",
+        "perturbed_hypothesis": "They are attempting to catch a school of small fish.",
         "original_label": "entailment",
         "new_label": "neutral"
     }

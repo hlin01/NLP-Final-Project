@@ -5,16 +5,16 @@ import time
 import json
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAV7fx7jtiyOEHT3INAUSurZDmziKrqDb8")  # Replace with your API key
-model = genai.GenerativeModel("gemini-1.5-flash")  # Replace with desired model
+genai.configure(api_key="API_KEY")  # Replace with your API key
+model = genai.GenerativeModel("gemini-1.5-pro")  # Replace with desired model
 
 # Load and filter SNLI dataset
 dataset = load_dataset("stanfordnlp/snli", split="test")
 
 # Filter dataset by label
-entailment_examples = dataset.filter(lambda x: x["label"] == 0).select(range(10))
-neutral_examples = dataset.filter(lambda x: x["label"] == 1).select(range(10))
-contradiction_examples = dataset.filter(lambda x: x["label"] == 2).select(range(10))
+entailment_examples = dataset.filter(lambda x: x["label"] == 0).shuffle(seed=42).select(range(500))
+neutral_examples = dataset.filter(lambda x: x["label"] == 1).shuffle(seed=42).select(range(500))
+contradiction_examples = dataset.filter(lambda x: x["label"] == 2).shuffle(seed=42).select(range(500))
 
 # Prompt templates
 ENTAILMENT_TO_CONTRADICTION_PROMPT = """
