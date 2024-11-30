@@ -9,7 +9,6 @@ import json
 
 NUM_PREPROCESSING_WORKERS = 2
 
-
 def main():
     argp = HfArgumentParser(TrainingArguments)
     # The HfArgumentParser object collects command-line arguments into an object (and provides default values for unspecified arguments).
@@ -57,29 +56,14 @@ def main():
     # {"premise": "Two women are embracing.", "hypothesis": "The sisters are hugging.", "label": 1}
     if args.dataset.endswith('.json') or args.dataset.endswith('.jsonl'):
         dataset_id = None
-        # Load the additional dataset from the specified JSONL file
+
         contrast_set = datasets.load_dataset('json', data_files=args.dataset)
-        
-        # Map integer labels to SNLI-compatible string labels
-        label_mapping = {0: "entailment", 1: "neutral", 2: "contradiction"}
-        contrast_set = contrast_set.map(
-            lambda example: {"label": label_mapping[example["label"]]}
-        )
-
-        # Load the SNLI dataset
         snli_dataset = datasets.load_dataset('snli')
+        combined_set = datasets.concatenate_datasets([snli_dataset['train'], contrast_set['train']])
+        combined_set.to_json('./combined_set.jsonl')
+        dataset = datasets.load_dataset('json', data_files='./combined_set.jsonl')
 
-        # Combine SNLI's train split with the additional data
-        combined_train_split = datasets.concatenate_datasets([snli_dataset['train'], contrast_set['train']])
-
-        # Use SNLI's validation split for evaluation
-        dataset = datasets.DatasetDict({
-            'train': combined_train_split,
-            'validation': snli_dataset['validation']
-        })
-
-        # Filter out invalid labels (-1) in the combined train split
-        dataset['train'] = dataset['train'].filter(lambda ex: ex['label'] != -1)
+        eval_split = 'train'
     else:
         default_datasets = {'qa': ('squad',), 'nli': ('snli',)}
         dataset_id = tuple(args.dataset.split(':')) if args.dataset is not None else \
@@ -162,7 +146,6 @@ def main():
             predictions=eval_preds.predictions, references=eval_preds.label_ids)
     elif args.task == 'nli':
         compute_metrics = compute_accuracy
-    
 
     # This function wraps the compute_metrics function, storing the model's predictions
     # so that they can be dumped along with the computed metrics
