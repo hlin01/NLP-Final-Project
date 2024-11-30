@@ -57,12 +57,19 @@ def main():
     # {"premise": "Two women are embracing.", "hypothesis": "The sisters are hugging.", "label": 1}
     if args.dataset.endswith('.json') or args.dataset.endswith('.jsonl'):
         dataset_id = None
-        # Load from local json/jsonl file
-        dataset = datasets.load_dataset('json', data_files=args.dataset)
-        # By default, the "json" dataset loader places all examples in the train split,
-        # so if we want to use a jsonl file for evaluation we need to get the "train" split
-        # from the loaded dataset
-        eval_split = 'train'
+        # Load the additional dataset from the specified JSONL file
+        contrast_set = datasets.load_dataset('json', data_files=args.dataset)
+        # Load the SNLI dataset
+        snli_dataset = datasets.load_dataset('snli')
+        # Combine SNLI's train split with the additional data
+        combined_train_set = datasets.concatenate_datasets([snli_dataset['train'], contrast_set['train']])
+        # Use SNLI's validation split for evaluation
+        dataset = datasets.DatasetDict({
+            'train': combined_train_set,
+            'validation': snli_dataset['validation']
+        })
+        # Filter out invalid labels (-1) in the combined train split
+        dataset['train'] = dataset['train'].filter(lambda ex: ex['label'] != -1)
     else:
         default_datasets = {'qa': ('squad',), 'nli': ('snli',)}
         dataset_id = tuple(args.dataset.split(':')) if args.dataset is not None else \
